@@ -1,19 +1,10 @@
-HTTP CONTENT
-
+HTTP
+HTTP is defined by IETF RFCs and IANA registries.
 HTTP HISTORY
 	HTTP RESOURCES
-	
-	
 	HTTP FUNDAMENTALS
-	
-	
 	HTTP RESOURCE ADDRESSING
-	
-	
 	HTTP REQUEST METHODS
-	
-	
-	HTTP RESPONSE METHODS
 		8 Standard Methods
 		GET
 		HEAD
@@ -23,6 +14,14 @@ HTTP HISTORY
 		OPTIONS
 		TRACE
 		CONNECT
-
-	
+	HTTP RESPONSE METHODS	
 	METHOD PROPERTIES
+	HTTP HEADERS
+	HTTP EXTENSIONS
+	HTTP STATUS RESPONSE CODE
+		Information responses
+		Successful responses
+		Redirection messages
+		Client error responses
+		Server error responses
+
