@@ -1,44 +1,67 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>
-    HTTP REQUEST METHODS
-  </title>
-  </head>
+<meta charset="utf-8">
+<title>HTTP REQUEST METHODS</title>
+</head>
+<body>
 
-  <p>
-    
-    Standard Methods
-	Get 
-	-commonly used method ,transfer current selected presenatations of the target resource--retrieved
-	-must be upported by all compliant general purposes
+<header>
+<h1>Web Systems and Technologies</h1>
+</header>
 
-	Head
-	-identical to get,but thr resoutrces are not transfer
-	-get only the status code,does not display the html or the message body
-	-Use to retrieve metadata
+<nav>
+<ul>
+  <li><a href="index.html">Home</a></li>
+</ul>
+</nav>
 
-	POST
-	-unsafe/non idempotent
-	-request that the target perform resource
+<section>
+<main>
+<h2>HTTP REQUEST METHODS</h2>
+<p>are methods used by clients to request some resources to the server. And every request has a corresponding response.
+	There are 8 standard methods in HTTP it includes the GET, HEAD, POST (from HTTP/1.0), PUT, DELETE, OPTIONS, TRACE and CONNECT method (from HTTP/1.1). And recently PATCH method were added and it was determined by RFC 5789.</p>
 
-	PUT
-	-create or replace the state of the tarfet resource with teh state
+	<ul>
+  <li><p>GET</p></li>
+  <li><p>HEAD</p></li>
+  <li><p>POST</p></li>
+  <li><p>PUT</p></li>
+  <li><p>DELETE</p></li>
+  <li><p>OPTION</p></li>
+  <li><p>CONNECT</p></li>
+  <li><p>PATCH</p></li>
+  </ul>
+  
+  
+  <section>
+		GET - request data from a pa resource.
+			
+	<br><br>	HEAD - similar as the GET method but the only difference is it only returns the HTTP headers or the metadata.
+		
+	<br><br>	POST - performs submission of data to a particular resource to be processed.
+		
+		<br><br>PUT - create or replace something. It uploads a report of the specified URI.
+		
+	<br><br>	DELETE - removes the target resource.
+		
+	<br><br>	OPTIONS - recommends more choices that the server supports.
 
-	DELETE
-	-remove the association between the atrget source and its current funstionality
+	<br><br>	TRACE - used for testing/diagnosing of the response or request chain.
 
- 	Option
-	-what are the operations available
+	<br><br>	CONNECT - establishes a tunnel to the destination origin master
 
-	Trace
-	-allows the request of an echo
-	-request a remote,application-level loop back of the request message the recipient to echo back to the client 
-   	the recieved request message
-	-typically used for testing/diagnostics of the request/response chain
+	<br><br>	PATCH - provides partial changes to a resource.<br><br>
+  </section>
+</main>
 
-	Chunked encoding
-	-sent info in chunks	
-	-left- attribute
-  </p>
+</section>
+
+<footer>
+</footer>
+
+</body>
 </html>
+
+
+

@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+https://www.lifewire.com/top-level-domain-tld-2626029
+https://www.youtube.com/watch?v=SMxx9XEF6m0&t=134s
+=======
+https://www.lifewire.com/top-level-domain-tld-2626029
+https://www.youtube.com/watch?v=SMxx9XEF6m0&t=134s
+>>>>>>> 2afb1dad27835b4c1e032b598e8a5e44af15c3a7
