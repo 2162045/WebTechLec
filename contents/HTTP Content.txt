@@ -37,7 +37,12 @@ HTTP HISTORY
 		Cacheable Methods - response to method that allows to be stored with reverse feature.
 			(GET, HEAD, POST)
 			
-			
+	HTTP MESSAGE HEADER FIELDS
+		General header: used by both client and server
+		Request header: used only by clients
+		Response header: used only by server
+		Entity header: referred to an entity.
+		
 	HEADERS CLASSIFICATION
 	
 		Headers can be grouped according to their contexts:
