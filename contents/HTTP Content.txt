@@ -5,18 +5,26 @@ HTTP HISTORY
 	HTTP FUNDAMENTALS
 	HTTP RESOURCE ADDRESSING
 	HTTP REQUEST METHODS
-		8 Standard Methods
-		GET
-		HEAD
-		POST
-		PUT
-		DELETE
-		OPTIONS
-		TRACE
-		CONNECT
+	 -are methods used by clients to request some resources to the server. And every request has a corresponding response.
+	There are 8 standard methods in HTTP it includes the GET, HEAD, POST (from HTTP/1.0), PUT, DELETE, OPTIONS, TRACE and CONNECT method (from HTTP/1.1). And recently PATCH method were added and it was determined by RFC 5789.
 		
-		ADDITIONAL METHOD
-		PATCH
+		GET - request data from a pa resource.
+			
+		HEAD - similar as the GET method but the only difference is it only returns the HTTP headers or the metadata.
+		
+		POST - performs submission of data to a particular resource to be processed.
+		
+		PUT - create or replace something. It uploads a report of the specified URI.
+		
+		DELETE - removes the target resource.
+		
+		OPTIONS - recommends more choices that the server supports.
+
+		TRACE - used for testing/diagnosing of the response or request chain.
+
+		CONNECT - establishes a tunnel to the destination origin master
+
+		PATCH - provides partial changes to a resource.
 		
 	HTTP RESPONSE METHODS	
 	METHOD PROPERTIES
