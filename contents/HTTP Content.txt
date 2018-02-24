@@ -27,7 +27,17 @@ HTTP HISTORY
 		PATCH - provides partial changes to a resource.
 		
 	HTTP RESPONSE METHODS	
+	
+	
 	METHOD PROPERTIES
+		Safe Methods - read only semantics
+			(GET, HEAD, OPTION, TRACE)
+		Idempotent Methods - multiple identical request
+			(GET, HEAD, OPTION, TRACE, PUT, DELETE)
+		Cacheable Methods - response to method that allows to be stored with reverse feature.
+			(GET, HEAD, POST)
+			
+			
 	HEADERS CLASSIFICATION
 	
 		Headers can be grouped according to their contexts:
