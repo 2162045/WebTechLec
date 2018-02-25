@@ -27,6 +27,45 @@ HTTP HISTORY
 
 		PATCH - provides partial changes to a resource.
 		
+		
+		
+		
+		<p>
+    
+    Standard Methods
+	Get 
+	-commonly used method ,transfer current selected presenatations of the target resource--retrieved
+	-must be upported by all compliant general purposes
+
+	Head
+	-identical to get,but thr resoutrces are not transfer
+	-get only the status code,does not display the html or the message body
+	-Use to retrieve metadata
+
+	POST
+	-unsafe/non idempotent
+	-request that the target perform resource
+
+	PUT
+	-create or replace the state of the tarfet resource with teh state
+
+	DELETE
+	-remove the association between the atrget source and its current funstionality
+
+ 	Option
+	-what are the operations available
+
+	Trace
+	-allows the request of an echo
+	-request a remote,application-level loop back of the request message the recipient to echo back to the client 
+   	the recieved request message
+	-typically used for testing/diagnostics of the request/response chain
+
+	Chunked encoding
+	-sent info in chunks	
+	-left- attribute
+  </p>
+		
 	HTTP RESPONSE METHODS	
 	
 	
