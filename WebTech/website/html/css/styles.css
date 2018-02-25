@@ -1,0 +1,76 @@
+body {
+	background-color: #f6f6ff;
+	font-family: Calibri, Myriad;
+	margin: 5%;
+}
+h2,h3{
+	text-align: center;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: #f79646;
+	border-radius: 5px;
+}
+p{
+	margin: 20px;
+}
+.container{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #f79646;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+
+table.svg {
+	margin: auto;
+	width: 100%;
+	border-collapse: collapse;
+	border-width: 1px;
+	border-style: solid;
+}
+table.svg caption {
+	font-size: x-large;
+	font-weight: bold;
+	letter-spacing: .3em;
+	border-top: solid;
+	border-width: 1px;
+	border-color: #f79646;
+	border-radius: 5px;
+}
+table.svg thead th {
+	background-color: #fde9d9;
+	font-size: large;
+}
+table.svg thead th#blank {
+	width: 40%;
+}
+table.svg thead th#bitmap, table.svg thead th#vector {
+	width: 20%;
+}
+table.svg th, table.svg td {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #f79646 #ccc;
+}
+table.svg td {
+	text-align: left;
+}
+table.svg tbody th {
+	text-align: left;
+	font-weight: normal;
+}
+table.svg tr.even {
+	background-color: #fde9d9;
+}
+
+#images{
+	padding-top: 5px;
+	text-align: center;
+}
+table.inlineTable {
+	border-style: solid;
+    display: inline-block;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #f79646;
+}
