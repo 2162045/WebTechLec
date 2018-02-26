@@ -173,23 +173,23 @@
 
 
 	<ul>
-  <li><p>Safe Methods
-		</p></li>
-  <li><p>Idempotent Methods
-		</p></li>
-  <li><p>Cacheable Methods
-		</p></li>
+  <li><p><a href="#sm">Safe Methods</a></p></li>
+  <li><p><a href="#im">Idempotent Methods</a></p></li>
+  <li><p><a href="#cm">Cacheable Methods</a></p></li>
   
   </ul>
   
   <section>
   
-		Safe Methods - read only semantics<br>
-			(GET, HEAD, OPTION, TRACE) <br><br>
-		Idempotent Methods - multiple identical request<br>
-			(GET, HEAD, OPTION, TRACE, PUT, DELETE)<br><br>
-		Cacheable Methods - response to method that allows to be stored with feature reuse.<br>
-			(GET, HEAD, POST)<br>
+		<div id = "sm"> Safe Methods - read only semantics<br>
+			(GET, HEAD, OPTION, TRACE)<div> <br><br>
+			
+		<div id = "im">Idempotent Methods - multiple identical request<br>
+		(GET, HEAD, OPTION, TRACE, PUT, DELETE)<div><br><br>
+		
+		<div id = "cm">Cacheable Methods - response to method that allows to be stored with feature reuse.<br>
+			(GET, HEAD, POST)<div><br>
+			
   </section>
 
   
@@ -209,7 +209,7 @@
   </ul>
   
   
-  <h2>HTTP RESPONSE STATUS CODES</h2>
+  <h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">HTTP RESPONSE STATUS CODES</a></h2>
   
   
  <p> HTTP response status codes is an indication if a HTTP request has been processed successfully. HTTP response status codes are specified in section 10 of RFC 2616. </p>
@@ -227,7 +227,7 @@
   
   <section>
   
-  		<h3 id = "ir" >Information responses 1xx</h3>
+  		<h3 id = "ir" ><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">Information responses 1xx</a></h3></a>
 		
 			<br><br>100 Continue
 
@@ -236,7 +236,7 @@
 			<br><br>102 Processing (WebDAV)
 
 
-		<h3 id = "sr"><br><br>Successful responses 2xx</h3>
+		<h3 id = "sr"><br><br><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">Successful responses 2xx</h3></a>
 		
 			<br><br>200 OK
 
@@ -258,7 +258,7 @@
 
 			<br><br>226 IM Used (HTTP Delta encoding)
 			
-		<h3 id = "rm"><br><br>Redirection messages 3xx</h3>
+		<h3 id = "rm"><br><br><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">Redirection messages 3xx</h3></a>
 			
 			<br><br>300 Multiple Choice
 			 
@@ -278,7 +278,7 @@
 			 
 			<br><br>308 Permanent Redirect
 			 
-		<h3 id = "cer"><br><br>Client error responses 4xx</h3>
+		<h3 id = "cer"><br><br><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">Client error responses 4xx</h3></a>
 		
 			<br><br>400 Bad Request
 			 
@@ -336,7 +336,7 @@
 			 
 			<br><br>451 Unavailable For Legal Reasons
 			 
-		<h3 id = "ser"><br><br>Server error responses 5xx</h3>
+		<h3 id = "ser"><br><br><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status"> error responses 5xx</h3></a>
 		
 			<br><br>500 Internal Server Error
 			 
