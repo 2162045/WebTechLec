@@ -1,28 +1,133 @@
 <!DOCTYPE html>
   <html>
   <head>
-    <title>HTML</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
-    <header><h1>HyperText Transfer Protocol</h1></header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="">World Wide Web</a>
-        <a href="">HyperText Transfer Protocol</a>
-        <a href="">HyperText Markup Language</a>
-        <a href="">About</a>
-    </nav>
 
-    <article>
-      <h2>HyperText Transfer Protocol</h2>
-      <p>HTML is the language for describing the structure of Web pages. HTML gives authors the means to:</p>
-      <ul>
-        <li>Publish online documents with headings, text, tables, lists, photos, etc.</li>
-        <li>Retrieve online information via hypertext links, at the click of a button.</li>
-        <li>Design forms for conducting transactions with remote services, for use in searching for information, making reservations, ordering products, etc.</li>
-        <li>Include spread-sheets, video clips, sound clips, and other applications directly in their documents.</li>
-      </ul>
-      <p>With HTML, authors describe the structure of pages using markup. The elements of the language label pieces of content such as “paragraph,” “list,” “table,” and so on.</p>
-    </article>
+    <section>
+    <h2>HyperText Markup Language</h2>
+    <p>The core markup language of the World Wide Web. HTML is the language for describing the structure of Web pages. HTML gives authors the means to:</p>
+    <ul>
+      <li>Publish online documents with headings, text, tables, lists, photos, etc.</li>
+      <li>Retrieve online information via hypertext links, at the click of a button.</li>
+      <li>Design forms for conducting transactions with remote services, for use in searching for information, making reservations, ordering products, etc.</li>
+      <li>Include spread-sheets, video clips, sound clips, and other applications directly in their documents.</li>
+    </ul>
+    <p>With HTML, authors describe the structure of pages using markup. The elements of the language label pieces of content such as “paragraph,” “list,” “table,” and so on.</p>
+  </section>
+
+  <section class="columns">
+
+  	<div class="column">
+  		<h2>1st Content Area</h2>
+  		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione architecto necessitatibus cum praesentium dolor totam voluptatibus recusandae?</p>
+  	</div>
+
+  	<div class="column">
+  		<h2>2nd Content Area</h2>
+  		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione architecto necessitatibus cum praesentium dolor totam voluptatibus recusandae? Illo quod nemo ratione itaque dolores laudantium error vero laborum blanditiis nostrum.</p>
+  	</div>
+
+    <div class="column">
+  		<h2>3rd Content Area</h2>
+  		<p>Illo quod nemo ratione itaque dolores laudantium error vero laborum blanditiis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione architecto cum praesentium voluptatibus recusandae?</p>
+  	</div>
+
+  </section>
+
+  <section>
+      <h2>ELEMENTS</h2>
+      <h3>Semantic Elements</h3>
+      <p>With HTML4, developers used their own id/class names to style elements:
+        header, top, bottom, footer, menu, navigation, main, container, content, article, sidebar, topnav, etc.</p>
+
+      <p>This made it impossible for search engines to identify the correct web page content.</p>
+
+      <p>With the new HTML5 elements (&lt;header&gt; &lt;footer&gt; &lt;nav&gt; &lt;section&gt; &lt;article&gt;),
+        this will become easier.</p>
+
+      <p>According to the W3C, a Semantic Web: "Allows data to be shared and reused across applications,
+        enterprises, and communities."</p>
+
+
+      <img src="p.svg" alt="elements">
+  </section>
+
+    <section>
+      <h2>ACCESSIBILITY</h2>
+      <p>The Web must be accessible to provide equal access and equal opportunity
+        to people with diverse abilities. Indeed, the UN Convention on the Rights of
+        Persons with Disabilities recognizes access to information and communications
+        technologies, including the Web, as a basic human right.</p>
+        <p>Accessibility supports social inclusion for people with disabilities as well as
+          others, such as older people, people in rural areas, and people in developing countries.</p>
+    <table class="svg">
+      <caption>Bitmap Graphics vs Scalable Vector Graphics</caption>
+    	<thead>
+    		<tr>
+    			<th id="blank"></th>
+    			<th id="bitmap">Bitmap graphics</th>
+    			<th id="vector">Vector graphics</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr class="odd">
+    			<th>What are they made up of?</th>
+    			<td>Pixels of different colours</td>
+    			<td>Objects</td>
+    		</tr>
+    		<tr class="even">
+    			<th>What can be edited?</th>
+    			<td>Individual pixels</td>
+    			<td>Individual objects</td>
+    		</tr>
+    		<tr class="odd">
+    			<th>What is the file size?</th>
+    			<td>Large, as the computer stores details of every pixel</td>
+    			<td>Small, as the computer stores details of objects, which do not require much memory</td>
+    		</tr>
+    		<tr class="even">
+    			<th>What happens when they are resized?</th>
+    			<td>They lose quality</td>
+    			<td>They do not lose quality</td>
+    		</tr>
+    		<tr class="odd">
+    			<th>How real do they look?</th>
+    			<td>Real</td>
+    			<td>Not real (many of them look like cartoon images)</td>
+    		</tr>
+    		<tr class="even">
+    			<th>Native formats that the software can read</th>
+    			<td>.bmp</td>
+    			<td>.svg</td>
+    		</tr>
+    		<tr class="odd">
+    			<th>Common file formats</th>
+    			<td>.bmp, .dib, jpeg, gif, tiff, .png</td>
+    			<td>.cgm, .svg, .odg, .eps, .xml</td>
+    		</tr>
+    	</tbody>
+    </table>
+
+    <div id="diff">
+        <table class="inlineTable">
+          <caption>Bitmap Graphics</caption>
+            <tr>
+              <td><img src="s.jpg" alt="simson" width="50" height="50"></td>
+              <td><img src="s.jpg" alt="simson" width="100" height="100"></td>
+              <td><img src="s.jpg" alt="simson" width="150" height="150"></td>
+            </tr>
+        </table>
+        <table class="inlineTable">
+          <caption>Scalable Vector Graphics</caption>
+            <tr>
+              <td><img src="s.svg" alt="simson" width="50" height="50"></td>
+              <td><img src="s.svg" alt="simson" width="100" height="100"></td>
+              <td><img src="s.svg" alt="simson" width="150" height="150"></td>
+            </tr>
+        </table>
+      </div>
+    </section>
   </body>
   </html>
