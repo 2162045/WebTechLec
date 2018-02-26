@@ -82,13 +82,13 @@ table.inlineTable {
 		border-width: 1px;
 		border-color: #f79646;
 }
+
 .columns {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	margin: 5px 0;
 }
-
 .column {
 	flex: 1;
 	border: 1px solid gray;
@@ -96,5 +96,4 @@ table.inlineTable {
 	padding: 10px;
 	&:first-child { margin-left: 0; }
 	&:last-child { margin-right: 0; }
-
 }
