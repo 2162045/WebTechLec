@@ -2,173 +2,140 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
 <title>Web Systems and Technologies</title>
 </head>
 <body>
+<section>
+<h2>History of Hypertext Transfer Protocol</h2>
+     <p>
+          <div class="tooltip">Hypertext Transfer Protocol<div class="tooltiptext">
+						<img src="./images/http1.jpg" alt="tim berners"></div></div><p> is a protocol in exchanging
+							or transferring hypertext on the World Wide Web.A protocol is sent over TCP, or over
+							a TLS-encrypted TCP connection,though any reliable transport protocol.
+							HTTP is widely used to access resources (hypertext/multimedia on the World Wide Web and for  fetching of
+							resources, such as HTML documents.It is the foundation of data communication for the World Wide Web.</p>
+					<div class="tooltip">Tim Berners Lee<div class="tooltiptext">
+						<img src="./images/tim.png" alt="tim berners"></div></div> <p>develop HTTP at CERN in Conseill
+							European on 1989 and jointly adopted by the W3C (World Wide Web Consortium) and
+							the standard development of it was coordinated by the IETF (Internet Engineering Task Force).
+        </p>
+        <p>HTTP Four Versions:</p>
+        <p>HTTP 0.9</p>
+                <p>This is the first initial version of HTTP .It has  a simple client-server,
+									request-response, telnet-friendly protocol.The method supported of HTTP 0.9 is
+									GET only and its request nature is single-line.On this version there is no HTTP headers
+									(cannot transfer other content type files), No status/error codes, No URLs,
+									No versioning.The popular web servers (Apache, Nginx) still supports HTTP/0/9.</p>
+        <p>HTTP 1 <a href=" https://tools.ietf.org/html/rfc1945">RFC 1945</a></p>
+                <p>HTTP 1.0 version provides header fields including rich metadata about
+									both request and response (HTTP version number, status code, content type).
+									Unlike HTTP 0.9 that the response is limit only in hypertext,HTTP 1.0 version
+									response is  not limited to hypertext (Content-Type header provided ability
+									to transmit files other than plain HTML files — e.g. scripts, stylesheets, media).
+									It supports  GET , HEAD , POST method.</p>
 
-<header>
-<h1>Hypertext Transfer Protocol</h1>
-</header>
+        <p>HTTP 1.1</p>
+            <p><a href="https://tools.ietf.org/html/rfc260">RFC 2608, JANUARY 1997 </a></p>
+            <p><a href="https://www.ietf.org/rfc/rfc2616.txt">RFC 2616 JUN 1999 </a></p>
+            <p><a href="https://tools.ietf.org/html/rfc7230">RFC 7230 JUN 2014 </a></p>
 
-		<nav>
-            <a href="index.html">Home</a>
-            <a href="">World Wide Web</a>
-            <a href="">HyperText Transfer Protocol</a>
-            <a href="">HyperText Markup Language</a>
-            <a href="">about</a>
-        </nav>
+        <p>HTTP 2</p>
+						<p><a href="https://tools.ietf.org/html/rfc7540">RFC 7540,MAY 2015 </a></p>
+</section>
 
 <section>
-<main>
-<h2>History of Hypertext Transfer Protocol</h2>
- 
- 
-  <img src="http1.jpg">
-     <p>
-          Hypertext Transfer Protocol is a protocol in exchanging or transferring hypertext on the World Wide Web.A protocol is sent over TCP, or over a TLS-encrypted TCP connection,though any reliable transport protocol.HTTP is widely used to access resources (hypertext/multimedia on the World Wide Web and for  fetching of resources, such as HTML documents.It is the foundation of data communication for the World Wide Web.The development was initiated by Tim Berners Lee at CERN in Conseill European on 1989 and jointly adopted by the W3C (World Wide Web Consortium) and the standard development of it was coordinated by the IETF (Internet Engineering Task Force).
-         <img src="tim.png" alt="tim berners">
-        </p>
-        
-        <p>HTTP Four Versions:
-        </p>
-        
-        <p>
-            HTTP 0.9  
-               <br>
-                This is the first initial version of HTTP .It has  a simple client-server, request-response, telnet-friendly protocol.The method supported of HTTP 0.9 is GET only and its request nature is single-line.On this version there is no HTTP headers (cannot transfer other content type files), No status/error codes, No URLs, No versioning.The popular web servers (Apache, Nginx) still supports HTTP/0/9. 
-
-        </p>
-        <p>
-            HTTP 1 <a href=" https://tools.ietf.org/html/rfc1945">RFC 1945</a>
-            <br>
-                HTTP 1.0 version provides header fields including rich metadata about both request and response (HTTP version number, status code, content type).Unlike HTTP 0.9 that the response is limit only in hypertext,HTTP 1.0 version response is  not limited to hypertext (Content-Type header provided ability to transmit files other than plain HTML files — e.g. scripts, stylesheets, media).It supports  GET , HEAD , POST method. 
-        </p>
-        
-        <p>
-
-            HTTP 1.1 
-            <br>
-            <a href="https://tools.ietf.org/html/rfc260">RFC 2608, JANUARY 1997 </a>
-            <a href="https://www.ietf.org/rfc/rfc2616.txt">RFC 2616 JUN 1999 </a>
-            <a href="https://tools.ietf.org/html/rfc7230">RFC 7230 JUN 2014 </a> 
-        </p>
-        
-        <p>
-            HTTP 2 
-            <br>
-             <a href="https://tools.ietf.org/html/rfc7540">RFC 7540,MAY 2015 </a>
-        </p>
-
 <h2>HTTP FUNDAMENTALS</h2>
-		
-		<p>
-    
 
-        The HTTP protocol is a request/response protocol based on the client/server based architecture where web browsers, 
+        <p>The HTTP protocol is a request/response protocol based on the client/server based architecture where web browsers,
         robots and search engines, etc. act like HTTP clients, and the Web server acts as a server.
+				<ul>
+            <li>HTTP runs on the top of TCP(Transmission Protocol)/IP(Internet Protocol) using TCP port 80 by the default or TCP port 443 for HTTPS (HTTP over SSL/TLS).
+            <li>HTTP is text based; the basic unit of HTTP communication is the message.
+            <li>Basically,HTTP uses request-response protocol,that the client will sends an HTTP requests message to the server.
+            <li>HTTP is based on a client -server architecture
+						</ul>
+
+                <p>Servers: origin server,proxy server,gateways,tunnels</p></p>
+                <p>origin server - actual machine,where resource is located.</p>
+                <p>Proxy server - An intermediary program which acts as both a server and a client for
+									the purpose of making requests on behalf of other clients. Proxies are often used as
+									client-side portals through network firewalls and as helper applications for handling
+									requests via protocols not implemented by the user agent.</p>
+                <p>Server - An application program that accepts connections in order to service requests
+									by sending back responses.</p>
+                <p>Gateway - a gateway receives requests as if it were the origin server for the requested
+									resource; the requesting client may not be aware that it is communicating with a gateway.
+									Gateways are often used as server-side portals through network firewalls and as protocol
+									translators for access to resources stored on non-HTTP systems.</p>
+                <p>Tunnel - A tunnel is an intermediary program which is acting as a blind relay between two connections.</p>
+                <p>Client A.K.A</p>
+                <p>An application program that makes a connections for the purpose of sending requests.</p>
+                <p>The client which initiates a request (browsers, editors, spiders).</p>
 
 
-                HTTP runs on the top of TCP(Transmission Protocol)/IP(Internet Protocol) using TCP port 80 by the default or TCP port 443 for HTTPS (HTTP over SSL/TLS).
-                HTTP is text based; the basic unit of HTTP communication is the message.
-                Basically,HTTP uses request-response protocol,that the client will sends an HTTP requests message to the server.
+                  <p>HTTP is  a stateless communications protocol ,that servers do not keep in of
+										about clients in between requests(simple implementations).</p>
 
-                HTTP is based on a client -server architecture  
-                    Servers: origin server,proxy server,gateways,tunnels
-                origin server - actual machine,where resource is located.
-                Proxy server - An intermediary program which acts as both a server and a client for the purpose of making requests on behalf of other clients. Proxies are often used as client-side portals through network firewalls and as helper applications for handling requests via protocols not implemented by the user agent.
-                Server - An application program that accepts connections in order to service requests by sending back responses.
-                Gateway - a gateway receives requests as if it were the origin server for the requested resource; the requesting client may not be aware that it is communicating with a gateway. Gateways are often used as server-side portals through network firewalls and as protocol translators for access to resources stored on non-HTTP systems.
-                Tunnel - A tunnel is an intermediary program which is acting as a blind relay between two connections. 
-
-
-                Client A.K.A
-                An application program that makes a connections for the purpose of sending requests.
-                The client which initiates a request (browsers, editors, spiders).
-        
-
-                    HTTP is  a stateless communications protocol ,that servers do not keep in of about clients in between requests(simple implementations).
-                    HTTP provides a support for other functionalities such as: 
-                    -cache control
-                    -content media type Multi purpose Internet Mail Extensions(MIME)
-                    -language and character set specification
-                    -content/transfer codings
-                    -client-server protocol negotiations(http1-http2)
-                    -request pipelining/multiplexing 
-                    *pipelining is the process where more than one request from the client.
-                    -authentication/authorization(control over accessing credentials).
-
-
+									<p>HTTP provides a support for other functionalities such as:</p>
+									<ul>
+                    <li>cache control
+                    <li>content media type Multi purpose Internet Mail Extensions(MIME)
+                    <li>language and character set specification
+                    <li>content/transfer codings
+                    <li>client-server protocol negotiations(http1-http2)
+                    <li>request pipelining/multiplexing
+                    <li>pipelining is the process where more than one request from the client.
+                    <li>authentication/authorization(control over accessing credentials).
+										</ul>
         </p>
-		
+
 	<h2>HTTP RESOURCE ADDRESSING</h2>
-	
-		<p>HTTP RESOURCE are identified using Uniform Resource Identifier’s  (RFC 3986) or more specifically HTTP URLs.
 
-    </p>
-    <p>
-        An excerpt from Tim Berners-Lee, et. al. in rfc 3986: uniform resource identifier (uri): generic syntax:A Uniform Resource Identifier (URI) is a compact sequence of characters that identifies an abstract or physical resource.A URI can be further classified as a locator, a name, or both. The term “Uniform Resource Locator” (URL) refers to the subset of URIs that, in addition to identifying a resource, provide a means of locating the resource by describing its primary access mechanism (e.g., its network “location”). (Difference Between URLs and URIs. (n.d.))
+		<p>HTTP RESOURCE are identified using Uniform Resource Identifier’s  (RFC 3986) or more specifically HTTP URLs.</p>
+    <p>An excerpt from Tim Berners-Lee, et. al. in rfc 3986: uniform resource identifier (uri): generic
+			syntax:A Uniform Resource Identifier (URI) is a compact sequence of characters that identifies
+			an abstract or physical resource.A URI can be further classified as a locator, a name, or both.
+			The term “Uniform Resource Locator” (URL) refers to the subset of URIs that, in addition to
+			identifying a resource, provide a means of locating the resource by describing its primary
+			access mechanism (e.g., its network “location”). (Difference Between URLs and URIs. (n.d.))</p>
+        <p>Scheme (http or https)</p>
+        <p>scheme indicates the addressing system.</p>
 
-    </p>
+  			<p>*Hypertext Transfer Protocol (http)</p>
+            <p>*HTTP Secure is an adaptation of the Hypertext Transfer Protocol,it is the secure version of HTTP.</p>
 
-    <p>
-        Scheme (http or https) <br>
-        scheme indicates the addressing system.<br>
+            <p>Authority (user:pwd)</p>
+                <p>user information</p>
+                <p>Host -domain name</p>
+                <p>Port - default 80</p>
+            <p>Path to resource</p>
+                <p>It refers to the document root(WAMP,UBUNTU)  on the server and may refer to static or dynamic</p>
+            <p>Query</p>
+                <p>It starts in question mark (?)</p>
+                <p>Typically provided as key = value pairs with ampersand (&amp;) separator between key value pairs</p>
+            <p>Fragment identifier
+							<img src="./images/resource.PNG">
+</section>
 
-  			*Hypertext Transfer Protocol (http)<br>
-            *HTTP Secure is an adaptation of the Hypertext Transfer Protocol,it is the secure version of HTTP.<br>
-
-            Authority (user:pwd)<br>
-                user information<br>
-                Host -domain name<br>
-                Port - default 80<br>
-            Path to resource <br>
-                It refers to the document root(WAMP,UBUNTU)  on the server and may refer to static or dynamic<br>
-            Query <br>
-                It starts in question mark (?)	<br>
-                Typically provided as key = value pairs with ampersand (&amp;) separator between key value pairs<br> 
-            Fragment identifier
-
-                <img src="resourc.PNG">
-    </p>
-		
+<section>
 	<h2>HTTP REQUEST METHODS</h2>
-	
-	
+
 <p>are methods used by clients to request some resources to the server. And every request has a corresponding response.
 	There are 8 standard methods in HTTP it includes the GET, HEAD, POST (from HTTP/1.0), PUT, DELETE, OPTIONS, TRACE and CONNECT method (from HTTP/1.1). And recently PATCH method were added and it was determined by RFC 5789.</p>
 
-	<ul>
-  <li><p>GET</p></li>
-  <li><p>HEAD</p></li>
-  <li><p>POST</p></li>
-  <li><p>PUT</p></li>
-  <li><p>DELETE</p></li>
-  <li><p>OPTION</p></li>
-  <li><p>CONNECT</p></li>
-  <li><p>PATCH</p></li>
-  </ul>
-  
-  
-  <section>
-		GET - request data from a pa resource.
-			
-	<br><br>	HEAD - similar as the GET method but the only difference is it only returns the HTTP headers or the metadata.
-		
-	<br><br>	POST - performs submission of data to a particular resource to be processed.
-		
-		<br><br>PUT - create or replace something. It uploads a report of the specified URI.
-		
-	<br><br>	DELETE - removes the target resource.
-		
-	<br><br>	OPTIONS - recommends more choices that the server supports.
+<p>GET - request data from a pa resource.</p>
+<p>HEAD - similar as the GET method but the only difference is it only returns the HTTP headers or the metadata.</p>
+<p>POST - performs submission of data to a particular resource to be processed.</p>
+<p>PUT - create or replace something. It uploads a report of the specified URI.</p>
+<p>DELETE - removes the target resource.</p>
+<p>OPTIONS - recommends more choices that the server supports.</p>
+<p>TRACE - used for testing/diagnosing of the response or request chain.</p>
+<p>CONNECT - establishes a tunnel to the destination origin master</p>
+<p>PATCH - provides partial changes to a resource.</p>
+</section>
 
-	<br><br>	TRACE - used for testing/diagnosing of the response or request chain.
-
-	<br><br>	CONNECT - establishes a tunnel to the destination origin master
-
-	<br><br>	PATCH - provides partial changes to a resource.<br><br>
-  </section>	
-		
+<section>
 		<h2>METHOD PROPERTIES</h2>
 
 
@@ -176,44 +143,38 @@
   <li><p><a href="#sm">Safe Methods</a></p></li>
   <li><p><a href="#im">Idempotent Methods</a></p></li>
   <li><p><a href="#cm">Cacheable Methods</a></p></li>
-  
   </ul>
-  
-  <section>
-  
-		<div id = "sm"> Safe Methods - read only semantics<br>
-			(GET, HEAD, OPTION, TRACE)<div> <br><br>
-			
-		<div id = "im">Idempotent Methods - multiple identical request<br>
-		(GET, HEAD, OPTION, TRACE, PUT, DELETE)<div><br><br>
-		
-		<div id = "cm">Cacheable Methods - response to method that allows to be stored with feature reuse.<br>
-			(GET, HEAD, POST)<div><br>
-			
+
+
+		<p>Safe Methods - read only semantics</p>
+			<p>(GET, HEAD, OPTION, TRACE)</p>
+
+		<p>Idempotent Methods - multiple identical request</p>
+		<p>(GET, HEAD, OPTION, TRACE, PUT, DELETE)</p>
+
+		<p>Cacheable Methods - response to method that allows to be stored with feature reuse.</p>
+			<p>(GET, HEAD, POST)</p>
+
   </section>
 
-  
-  
+
+	<section>
   <h2>HTTP MESSAGE HEADER FIELDS</h2>
 
 
 	<ul>
-  <li><p>General header: used by both client and server
-		</p></li>
-  <li><p>Request header: used only by clients-user agent (client message)
-		</p></li>
-  <li><p>Response header: used only by server (server message)
-		</p></li>
-  <li><p>Entity header: referred to an entity.</p></li>
-  
+  <li>General header: used by both client and server</li>
+  <li>Request header: used only by clients-user agent (client message)</li>
+  <li>Response header: used only by server (server message)</li>
+  <li>Entity header: referred to an entity.</li>
   </ul>
-  
-  
+
+
   <h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">HTTP RESPONSE STATUS CODES</a></h2>
-  
-  
+
+
  <p> HTTP response status codes is an indication if a HTTP request has been processed successfully. HTTP response status codes are specified in section 10 of RFC 2616. </p>
-  
+
   <p> These are grouped in five classes it includes:</p>
 
 
@@ -224,155 +185,102 @@
 		<li><p><a href="#cer">Client error responses 4xx</a></p></li>
 		<li><p><a href="#ser">Server error responses 5xx</a></p></li>
   </ul>
-  
-  <section>
-  
-  		<h3 id = "ir" ><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">Information responses 1xx</a></h3></a>
-		
-			<br><br>100 Continue
 
-			<br><br>101 Switching Protocol
+	<section class="columns">
 
-			<br><br>102 Processing (WebDAV)
+  	<div class="column">
+  		<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">Information responses 1xx</a></h2>
+			<p>100 Continue</p>
+			<p>101 Switching Protocol</p>
+			<p>102 Processing (WebDAV)</p>
+  	</div>
 
+  	<div class="column">
+  		<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">Successful responses 2xx</a></h2>
+			<p>200 OK</p>
+			<p>201 Created</p>
+			<p>202 Accepted</p>
+			<p>203 Non-Authoritative Information</p>
+			<p>204 No Content</p>
+			<p>205 Reset Content</p>
+			<p>206 Partial Content</p>
+			<p>207 Multi-Status (WebDAV)</p>
+			<p>208 Multi-Status (WebDAV)</p>
+			<p>226 IM Used (HTTP Delta encoding)</p>
+  	</div>
 
-		<h3 id = "sr"><br><br><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">Successful responses 2xx</h3></a>
-		
-			<br><br>200 OK
-
-			<br><br>201 Created
-
-			<br><br>202 Accepted
-
-			<br><br>203 Non-Authoritative Information
-
-			<br><br>204 No Content
-
-			<br><br>205 Reset Content
-
-			<br><br>206 Partial Content
-
-			<br><br>207 Multi-Status (WebDAV)
-
-			<br><br>208 Multi-Status (WebDAV)
-
-			<br><br>226 IM Used (HTTP Delta encoding)
-			
-		<h3 id = "rm"><br><br><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">Redirection messages 3xx</h3></a>
-			
-			<br><br>300 Multiple Choice
-			 
-			<br><br>301 Moved Permanently
-			 
-			<br><br>302 Found
-			 
-			<br><br>303 See Other
-			 
-			<br><br>304 Not Modified
-			 
-			<br><br>305 Use Proxy 
-			 
-			<br><br>306 unused
-			 
-			<br><br>307 Temporary Redirect
-			 
-			<br><br>308 Permanent Redirect
-			 
-		<h3 id = "cer"><br><br><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">Client error responses 4xx</h3></a>
-		
-			<br><br>400 Bad Request
-			 
-			<br><br>401 Unauthorized
-			 
-			<br><br>402 Payment Required
-			 
-			<br><br>403 Forbidden
-			 
-			<br><br>404 Not Found
-			 
-		<br><br>405 Method Not Allowed
-			 
-			<br><br>406 Not Acceptable
-			 
-			<br><br>407 Proxy Authentication Required
-			 
-			<br><br>408 Request Timeout
-			 
-			<br><br>409 Conflict
-			 
-			<br><br>410 Gone
-			 
-			<br><br>411 Length Required
-			 
-			<br><br>412 Precondition Failed
-			 
-			<br><br>413 Payload Too Large
-			 
-			<br><br>414 URI Too Long
-			 
-			<br><br>415 Unsupported Media Type
-			 
-			<br><br>416 Requested Range Not Satisfiable
-			 
-			<br><br>417 Expectation Failed
-			 
-			<br><br>418 I'm a teapot
-			 
-			<br><br>421 Misdirected Request
-			 
-			<br><br>422 Unprocessable Entity (WebDAV)
-			 
-			<br><br>423 Locked (WebDAV)
-			 
-			<br><br>424 Failed Dependency (WebDAV)
-			 
-			<br><br>426 Upgrade Required
-			 
-			<br><br>428 Precondition Required
-			 
-			<br><br>429 Too Many Requests
-			 
-			<br><br>431 Request Header Fields Too Large
-			 
-			<br><br>451 Unavailable For Legal Reasons
-			 
-		<h3 id = "ser"><br><br><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status"> error responses 5xx</h3></a>
-		
-			<br><br>500 Internal Server Error
-			 
-			<br><br>501 Not Implemented
-			 
-			<br><br>502 Bad Gateway
-			 
-			<br><br>503 Service Unavailable
-			 
-			<br><br>504 Gateway Timeout
-			 
-			<br><br>505 HTTP Version Not Supported
-			 
-			<br><br>506 Variant Also Negotiates
-			 
-			<br><br>507 Insufficient Storage
-			 
-			<br><br>508 Loop Detected (WebDAV)
-			 
-			<br><br>510 Not Extended
-			 
-			<br><br>511 Network Authentication Required
-			
+    <div class="column">
+  		<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">Redirection messages 3xx</a></h2>
+				<p>300 Multiple Choice</p>
+				<p>301 Moved Permanently</p>
+				<p>302 Found</p>
+				<p>303 See Other</p>
+				<p>304 Not Modified</p>
+				<p>305 Use Proxy</p>
+				<p>306 unused</p>
+				<p>307 Temporary Redirect</p>
+				<p>308 Permanent Redirect</p>
+  	</div>
+		<div class="column">
+  		<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">Client error responses 4xx</a></h2>
+      <p>400 Bad Request</p>
+      <p>401 Unauthorized</p>
+      <p>402 Payment Required</p>
+      <p>403 Forbidden</p>
+      <p>404 Not Found</p>
+      <p>405 Method Not Allowed</p>
+      <p>406 Not Acceptable</p>
+      <p>407 Proxy Authentication Required</p>
+      <p>408 Request Timeout</p>
+      <p>409 Conflict</p>
+      <p>410 Gone</p>
+      <p>411 Length Required</p>
+      <p>412 Precondition Failed</p>
+      <p>413 Payload Too Large</p>
+      <p>414 URI Too Long</p>
+      <p>415 Unsupported Media Type</p>
+      <p>416 Requested Range Not Satisfiable</p>
+      <p>417 Expectation Failed</p>
+      <p>418 I'm a teapot</p>
+      <p>421 Misdirected Request</p>
+      <p>422 Unprocessable Entity (WebDAV)</p>
+      <p>423 Locked (WebDAV)</p>
+      <p>424 Failed Dependency (WebDAV)</p>
+      <p>426 Upgrade Required</p>
+      <p>428 Precondition Required</p>
+      <p>429 Too Many Requests</p>
+      <p>431 Request Header Fields Too Large</p>
+      <p>451 Unavailable For Legal Reasons</p>
+  	</div>
+    <div class="column">
+  		<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status">Error responses 5xx</a></h2>
+      <p>500 Internal Server Error</p>
+      <p>501 Not Implemented</p>
+      <p>502 Bad Gateway</p>
+      <p>503 Service Unavailable</p>
+      <p>504 Gateway Timeout</p>
+      <p>505 HTTP Version Not Supported</p>
+      <p>506 Variant Also Negotiates</p>
+      <p>507 Insufficient Storage</p>
+      <p>508 Loop Detected (WebDAV)</p>
+      <p>510 Not Extended</p>
+      <p>511 Network Authentication Required</p>
+  	</div>
   </section>
 
-		
-		
-</main>
 
-</section>
+
+
+
+
+
+
+
+
+  </section>
 
 <footer>
 </footer>
 
 </body>
 </html>
-
-
-
