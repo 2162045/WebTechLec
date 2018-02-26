@@ -1,6 +1,7 @@
 body {
 	background-color: #f6f6ff;
 	font-family: Calibri, Myriad;
+
 }
 #bg{
 	background: url(../images/slu.jpg);
@@ -25,7 +26,7 @@ img{
 section{
 	border-style: solid;
 	border-width: 1px;
-	border-color: #f79646;
+	border-color: grey;
 	border-radius: 5px;
 	margin-bottom: 50px;
 }
@@ -40,13 +41,9 @@ table.svg caption {
 	font-size: x-large;
 	font-weight: bold;
 	letter-spacing: .3em;
-	border-top: solid;
-	border-width: 1px;
-	border-color: #f79646;
-	border-radius: 5px;
 }
 table.svg thead th {
-	background-color: #fde9d9;
+	background-color: grey;
 	font-size: large;
 }
 table.svg thead th#blank {
@@ -58,7 +55,7 @@ table.svg thead th#bitmap, table.svg thead th#vector {
 table.svg th, table.svg td {
 	border-width: 1px;
 	border-style: solid;
-	border-color: #f79646 #ccc;
+	border-color: grey;
 }
 table.svg td {
 	text-align: left;
@@ -66,9 +63,6 @@ table.svg td {
 table.svg tbody th {
 	text-align: left;
 	font-weight: normal;
-}
-table.svg tr.even {
-	background-color: #fde9d9;
 }
 
 #diff{
@@ -91,9 +85,6 @@ table.inlineTable {
 }
 .column {
 	flex: 1;
-	border: 1px solid gray;
 	margin: 2px;
 	padding: 10px;
-	&:first-child { margin-left: 0; }
-	&:last-child { margin-right: 0; }
 }
