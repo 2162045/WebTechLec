@@ -80,7 +80,7 @@ table.inlineTable {
     display: inline-block;
 		border-style: solid;
 		border-width: 1px;
-		border-color: #f79646;
+		border-color: grey;
 }
 
 .columns {
