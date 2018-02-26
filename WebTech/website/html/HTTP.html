@@ -184,7 +184,7 @@
   
   <section>
   
-  Safe Methods - read only semantics<br>
+		Safe Methods - read only semantics<br>
 			(GET, HEAD, OPTION, TRACE) <br><br>
 		Idempotent Methods - multiple identical request<br>
 			(GET, HEAD, OPTION, TRACE, PUT, DELETE)<br><br>
@@ -209,26 +209,25 @@
   </ul>
   
   
-  <h2>HTTP EXTENSIONS</h2>
+  <h2>HTTP RESPONSE STATUS CODES</h2>
+  
+  
+ <p> HTTP response status codes is an indication if a HTTP request has been processed successfully. HTTP response status codes are specified in section 10 of RFC 2616. </p>
+  
+  <p> These are grouped in five classes it includes:</p>
 
 
 	<ul>
-  <li><p>Information responses
-		</p></li>
-  <li><p>Successful responses
-		</p></li>
-  <li><p>Redirection messages
-		</p></li>
-		<li><p>Client error responses
-		</p></li>
-		<li><p>Server error responses
-		</p></li>
-  
+		 <li><p><a href="#ir">Information responses 1xx</a></p></li>
+		<li><p><a href="#sr">Successful responses 2xx</a></p></li>
+		<li><p><a href="#rm">Redirection messages 3xx</a></p></li>
+		<li><p><a href="#cer">Client error responses 4xx</a></p></li>
+		<li><p><a href="#ser">Server error responses 5xx</a></p></li>
   </ul>
   
   <section>
   
-  		Information responses
+  		<h3 id = "ir" >Information responses 1xx</h3>
 		
 			<br><br>100 Continue
 
@@ -237,7 +236,7 @@
 			<br><br>102 Processing (WebDAV)
 
 
-		<h3><br><br>Successful responses</h3>
+		<h3 id = "sr"><br><br>Successful responses 2xx</h3>
 		
 			<br><br>200 OK
 
@@ -259,7 +258,7 @@
 
 			<br><br>226 IM Used (HTTP Delta encoding)
 			
-		<h3><br><br>Redirection messages</h3>
+		<h3 id = "rm"><br><br>Redirection messages 3xx</h3>
 			
 			<br><br>300 Multiple Choice
 			 
@@ -279,7 +278,7 @@
 			 
 			<br><br>308 Permanent Redirect
 			 
-		<h3><br><br>Client error responses</h3>
+		<h3 id = "cer"><br><br>Client error responses 4xx</h3>
 		
 			<br><br>400 Bad Request
 			 
@@ -337,7 +336,7 @@
 			 
 			<br><br>451 Unavailable For Legal Reasons
 			 
-		<h3><br><br>Server error responses</h3>
+		<h3 id = "ser"><br><br>Server error responses 5xx</h3>
 		
 			<br><br>500 Internal Server Error
 			 
