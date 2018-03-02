@@ -1,0 +1,57 @@
+<!doctype html >
+<html>
+  
+  <head>
+    
+  </head><Title></Title></head>
+<body>
+  
+  <h3>
+    HTML stylesheets
+  </h3>
+  <p>
+    Sources of styles for html .
+    
+  </p>
+  <h5>
+    Sources
+  </h5>
+  <ol>
+    <li>Author Style</li>
+    <ul>
+      
+      <li>Provide by the author of the page.</li>
+    <li>3 ways specifying author style</li>
+      <ul>
+        <li>External</li>
+        <p> Separate file that is link to each other.
+        </p>
+        <li>Embedded</li>
+        <p>
+          Embeded style element is on single page domain
+          <li>Inline Styles</li>
+          <p>
+            Putting elemet inside the href attribute.
+        </p>
+        </p>
+        
+        
+        
+      </ul>
+    </ul>
+    <li>User Style</li>
+
+<ul>
+    
+      <li>Some browsers provide (non-standard alternative through plugins and extension)</li>
+  <li>Provide user in running and configuring om which the users consuming the page rovide their own way in styling teh page. </li>
+  </ul> 
+    
+  
+  <li>User Agent Style</li>
+<li>Sample default user agent stylesheet
+</li>
+<li>Comes with the user-agent design to teh document</li>
+  </ol>
+</body>
+</html>
