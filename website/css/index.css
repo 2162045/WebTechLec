@@ -2,10 +2,11 @@
     box-sizing: border-box;
 }
 
-header{
+header {
     padding: 10px;
 }
-body{
+
+body {
     background-image: url(../images/networks.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,7 +14,8 @@ body{
     background-position: center center;
     margin: 0;
 }
-.header{
+
+.header {
     text-align: center;
     font-size: 50px;
     background-color: beige;
@@ -24,16 +26,19 @@ body{
     margin-right: 25%;
     padding: 5%;
 }
-.row{
-  text-align: center;
+
+.row {
+    text-align: center;
 }
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 
 }
-.block{
+
+.block {
     float: left;
     width: 500px;
     padding: 30px;
@@ -44,7 +49,7 @@ body{
     margin: 10px;
 }
 
-.term{
+.term {
     background-color: beige;
     float: left;
     width: 33.33%;
@@ -53,7 +58,7 @@ body{
     text-align: center;
 }
 
-#contact{
+#contact {
     background-color: #333;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -62,7 +67,8 @@ body{
     font-family: arial;
     font-size: 12px
 }
-.button{
+
+.button {
     -webkit-appearance: button;
     -moz-appearance: button;
     width: 30%;
@@ -71,10 +77,10 @@ body{
 
 }
 
-.button:hover{
+.button:hover {
     background-color: beige;
 }
 
-.size{
+.size {
     padding: 30px;
 }

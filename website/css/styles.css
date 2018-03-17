@@ -1,98 +1,117 @@
 body {
-	background-color: #f6f6ff;
-	font-family: Calibri, Myriad;
+    background-color: #f6f6ff;
+    font-family: Calibri, Myriad;
 
 }
-#bg{
-	background: url(../images/slu.jpg);
-  background-size: cover;
-}
-h1,h2{
-	text-align: center;
-	font-family: "Book Antigua";
-}
-h3{
-	margin: 20px;
-	text-align: left;
-	font-family: "Book Antigua";
-}
-p{
-	margin: 20px;
-	font-family: "Bookman Old style";
+
+#bg {
+    background: url(../images/slu.jpg);
+    background-size: cover;
 }
 
-img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+h1,
+h2 {
+    text-align: center;
+    font-family: "Book Antigua";
 }
-section{
-	border-style: solid;
-	border-width: 1px;
-	border-color: grey;
-	border-radius: 5px;
-	margin-bottom: 1%;
+
+h3 {
+    margin: 20px;
+    text-align: left;
+    font-family: "Book Antigua";
 }
+
+p {
+    margin: 20px;
+    font-family: "Bookman Old style";
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+
 table.svg {
-	margin: auto;
-	width: 100%;
-	border-collapse: collapse;
-	border-width: 1px;
-	border-style: solid;
-}
-table.svg caption {
-	font-size: x-large;
-	font-weight: bold;
-	letter-spacing: .3em;
-}
-table.svg thead th {
-	background-color: grey;
-	font-size: large;
-}
-table.svg thead th#blank {
-	width: 40%;
-}
-table.svg thead th#bitmap, table.svg thead th#vector {
-	width: 20%;
-}
-table.svg th, table.svg td {
-	border-width: 1px;
-	border-style: solid;
-	border-color: grey;
-}
-table.svg td {
-	text-align: left;
-}
-table.svg tbody th {
-	text-align: left;
-	font-weight: normal;
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
 }
 
-#diff{
-	padding-top: 5px;
-	text-align: center;
+table.svg caption {
+    font-size: x-large;
+    font-weight: bold;
+    letter-spacing: .3em;
 }
+
+table.svg thead th {
+    background-color: grey;
+    font-size: large;
+}
+
+table.svg thead th#blank {
+    width: 40%;
+}
+
+table.svg thead th#bitmap,
+table.svg thead th#vector {
+    width: 20%;
+}
+
+table.svg th,
+table.svg td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+}
+
+table.svg td {
+    text-align: left;
+}
+
+table.svg tbody th {
+    text-align: left;
+    font-weight: normal;
+}
+
+#diff {
+    padding-top: 5px;
+    text-align: center;
+}
+
 table.inlineTable {
-	border-style: solid;
+    border-style: solid;
     display: inline-block;
-		border-style: solid;
-		border-width: 1px;
-		border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
 }
 
 .columns {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	margin: 5px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
 }
+
 .column {
-	flex: 1;
-	margin: 2px;
-	padding: 10px;
+    flex: 1;
+    margin: 2px;
+    padding: 10px;
 }
+
 .tooltip {
-		margin-left:20px;
+    margin-left: 20px;
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
