@@ -1,0 +1,25 @@
+CSS Declarations
+*Properties
+-Shorthand properties
+-Vendor specific extensions (vendor prefixes)
+-Custom properties a.k.a CSS variables (experimental)
+*Values
+-Value processing
+	~keywords
+	~numbvers
+	~dimensions
+		--length
+		--angle units
+		--duration uites
+		--frequency units
+		--resolution units
+	~percentage
+	~URLs and URIs
+	~Colors
+		--color keywords
+		--RGB hexadecimal notation
+		--RGB functions
+		--HSL functions
+		--currentColor, transparent
+	~Strings
+	~Funstions
