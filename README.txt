@@ -1,5 +1,3 @@
-*This repository is for webtech lecture where you can add and commit your work.
-
 Apache configurations
 1.Copy the website folder to "C:\wamp64\www"
 2.Open wamp under the task bar and configure "httpd-vhosts.conf" under Apache
