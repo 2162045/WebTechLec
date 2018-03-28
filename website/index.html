@@ -1,51 +1,66 @@
 <!DOCTYPE html>
-<html>
-    <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Web Technology Course Website</title>
 </head>
 
 <body>
+    <!--   Header-->
     <header>
-
-        <div class="header">WEB TECHNOLOGY COURSE</div>
-
-        <div class="row">
-            <div class="block" id="2">EDUCATION IS THE MOST POWERFUL WEAPON</div>
-            <div class="block" id="3">EDUCATION IS A PASSPORT TO THE FUTURE</div>
-        </div>
-
+        <a href="test.html"> <img class="logo" src="ourlogo1.png" alt="My Logo"> </a>
+        <input id="menu" type="checkbox" />
+        <label for="menu"> <span></span> <span></span> <span></span> </label>
+        <nav>
+            <ul>
+                <li> <a href="#">Hypertext Markup Languange</a> </li>
+                <li> <a href="#">Hypertext Transfer Protocol</a> </li>
+                <li> <a href="#">World Wide Web</a> </li>
+                <li> <a href="#">Unified Resource Locator</a> </li>
+            </ul>
+        </nav>
     </header>
-
-    <main>
-        <div class="row">
-            <div class="term">
-                <a href="prelims/prelims.html" button class="button size">
-                <img src="./images/folder.svg" alt="folder">
-            </a>
-                <p>PRELIMS</p>
-            </div>
-            <div class="term">
-                <a href="midterms/midterms.html" button class="button size">
-                <img src="./images/folder.svg" alt="folder">
-            </a>
-                <p>MIDTERMS</p>
-            </div>
-            <div class="term">
-                <a href="finals/finals.html" button class="button size">
-                <img src="./images/folder.svg" alt="folder">
-            </a>
-                <p>FINALS</p>
+    <!--    Background-->
+    <div id="background">
+        <div id="title">
+            <h2>Web Systems and Technologies</h2> </div>
+    </div>
+    <!--    Content-->
+    <div class="content-wrapper">
+        <div id="scis">
+            <div class="column"> <img src="scis.png" alt="scis logo" height="250" width="250"> </div>
+            <div class="column">
+                <h1>School of Computing and Information Sciences</h1>
+                <p>The youngest School in SLU traces its roots to the vision of then VP for Finance and later University President, Rev. Fr. Ghisleen de Vos (1976–1983). Forward thinking and possessed with a progressive management style, Fr. de Vos foresaw the full automation of some university systems like the accounting and enrolment processes at a period when computerization was not yet widely practiced in the country. With the acquisition of the IBM systems in 1969 and in 1980, SLU also catered to the computing needs of other institutions in nearby regions.The SLU Computer Center handled these tasks until 1990 when it evolved into the Institute of Information and Computing Science and offered a course in Computer Science. </p>
+                <br>
+                <h2>Vision-Mission</h2>
+                <p>The School of Computing and Information Sciences is envisioned as the University's instrument in bridging the digital divide between the academe, industry and community, offering computing sciences programs committed to the creative, competent and Christian transformation of individuals as agents of progress.</p>
             </div>
         </div>
-
-    </main>
-    <footer>
-        <div id="contact">
-            <p>Baguio City, Philippines 2600, (+65)977-826-4922</p>
-            <p> Webtechnology Copyright 2018</p>
+        <div class="content">
+            <h2 class="content-head is-center">Excepteur sint occaecat cupidatat.</h2>
+            <div class="pure-g">
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead"> <i class="fa fa-rocket"></i> Get Started Quickly </h3>
+                    <p> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum. </p>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead"> <i class="fa fa-mobile"></i> Responsive Layouts </h3>
+                    <p> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum. </p>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead"> <i class="fa fa-th-large"></i> Modular </h3>
+                    <p> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum. </p>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead"> <i class="fa fa-check-square-o"></i> Plays Nice </h3>
+                    <p> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum. </p>
+                </div>
+            </div>
         </div>
-    </footer>
+        <footer>Baguio City, Philippines 2600, (+65)977-826-4922 © Webtechnology Copyright 2018</footer>
+    </div>
 </body>
+
 </html>
