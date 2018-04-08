@@ -40,7 +40,9 @@
     font-size: 50px;
     border-style: solid;
     padding-top: 40px;
+    border-width: 5px;
     padding-bottom: 40px;
+    border-color: #f8c424;
 }
 
 input + label {
@@ -93,11 +95,11 @@ input:checked + label span:last-child {
 }
 
 input ~ nav > ul > li > a:hover {
-    color: #ff9900;
+    color: #f8c424;
 }
 
 input ~ nav {
-    background: #333333;
+    background: hsl(2002, 55%, 55%);
     position: fixed;
     top: 0;
     left: 0;
@@ -201,6 +203,7 @@ input:checked ~ nav > ul > li {
 .column {
     float: left;
     width: 20%;
+    height: 100%;
     margin-bottom: 16px;
     padding: 0 8px;
 }
@@ -241,6 +244,7 @@ input:checked ~ nav > ul > li {
 }
 
 footer {
+    font-family: 'Waukegan';
     position: fixed;
     color: #7f8c8d;
     background: #111;
