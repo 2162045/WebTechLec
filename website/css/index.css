@@ -144,20 +144,29 @@ input:checked ~ nav > ul > li {
     transition-delay: .5s;
 }
 
+.content-wrapper {
+    position: absolute;
+    top: 87%;
+    width: 100%;
+    z-index: 2;
+    background: white;
+}
 
-/*unequal column*/
+.content-wrapper:last-child {
+    padding-bottom: 100px;
+}
 
 .container {
     display: flex;
     padding: 1em;
 }
 
-.unequal {
+.unequal-column {
     background-color: hsl(2002, 55%, 55%);
-    padding-top: 1.5em;
+    padding-top: 3em;
 }
 
-.unequal h2 {
+.unequal-column h2 {
     text-align: center;
 }
 
@@ -178,28 +187,30 @@ input:checked ~ nav > ul > li {
     flex: 3 3 0%;
 }
 
+.equal-column {
+    padding-top: 3em;
+}
 
-/*equal column*/
-
-.content-wrapper {
-    position: absolute;
-    top: 87%;
-    width: 100%;
-    z-index: 2;
-    background: white;
+.equal-column h2 {
+    text-align: center;
 }
 
 .row {
+    width: 100%;
+    height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
 }
 
 .col {
-    flex: 1;
-    padding: .6em;
-    margin: .6em;
-    color: #FFF;
-    background-color: hsla(195, 60%, 50%, 1);
+    width: 20%;
+    height: 300px;
+    background: yellow;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
 }
 
 footer {
@@ -214,14 +225,16 @@ footer {
     line-height: 55px;
 }
 
-@media screen and (min-width: 500px) {
-    .row {
-        display: flex;
-        flex-direction: row;
+@media screen and (max-width:1200px) {
+    .col {
+        width: 40%;
     }
 }
 
 @media screen and (max-width:600px) {
+    .col {
+        width: 90%;
+    }
     .container {
         flex-flow: column wrap;
     }
