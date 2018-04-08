@@ -20,23 +20,30 @@
             But we can implement it on another way using style sheet.See the figure below:
             <img src="webt1.png">
             
-<p> There are three ways in using CSS in HTML document:
+<p> There sources using CSS in HTML document:
   <ol>
     <li>Author Style</li>
-    <ul>
+     Provide by the author of the page.
+    <p>The three ways in specifying author style
       
-      <li>Provide by the author of the page.</li>
-    <li>3 ways specifying author style</li>
-      <ul>
-        <li>External</li>
-        <p> Separate file that is link to each other.
+        <li>External Style Sheet</li>
+        <p> Define style sheet rules in a separate file that is link to each other.
         </p>
-        <li>Embedded</li>
-        <p>
-          Embeded style element is on single page domain
+      Example,we create a htm file that referencing the name of the css file,so that all the declartion in the .css file will apply on the 
+      html text file using tags.See the figure below:
+      <img src="html.png">
+      A cascading style sheet file will have extension as style.css and it will contain all the  HTML files <link> tag.
+      <img src="css.png:>
+                And the result will be:
+                <img src="result1.png">
+        <li>Internal Style Sheet</li>
+        <p>Define style sheet  on single page domain and it is applying the Style Sheet rules to a single document only, 
+            by putting those rules in header section of the HTML document using <style> tag.
+                                      <img src="internal.png">
           <li>Inline Styles</li>
           <p>
-            Putting elemet inside the href attribute.
+          Define style sheet in putting elemet inside the href attribute.
+                      <img src="inline.png">
         </p>
         </p>
         
