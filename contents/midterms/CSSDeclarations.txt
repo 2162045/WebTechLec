@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +14,27 @@
 
         <main>
 
-*Properties
--Shorthand properties
--Vendor specific extensions (vendor prefixes)
+<div>*Properties
+    <p>-Shorthand properties</p>
+            <p>These are properties that allows you to set values of numerous CSS properties. Usign such property will save you time and can wrote more short and to the point stylesheets.</p>
+            <br>
+            <p>BACKGROUND PROPERTIES: This is a shorthand property that defines values of either a background's image or color.</p>
+            <p>EXAMPLES:</p>
+            <br>
+            <p>*background-attachment sets whether the background image if fixed or an image scrolls.</p>
+            <br>
+            <p>*background-blend-mode sets the blending of certain background layers.</p>
+            <br>
+            <p>*background-clip defines how far should the background extend inside an element.</p>
+            <br>
+            <p>*background-color sets the color of an element.</p>
+            <br>
+            <p>*background-image sets multiple background images for a specific element.</p>
+            <br>
+    <p>-Vendor specific extensions (vendor prefixes)</p>
+            <p>.</p>
 -Custom properties a.k.a CSS variables (experimental)
+</div>
 *Values
 -Value processing
     ~keywords
@@ -37,11 +54,11 @@
         --HSL functions
         --currentColor, transparent
     ~Strings
-    ~Funstions
+    ~Functions
 
         </main>
         <footer>
-           Baguio City, Philippines 2600, (+65)977-826-4922 © Webtechnology Copyright 2018
+           Baguio City, Philippines 2600, (+63)977-826-4922 © Webtechnology Copyright 2018
         </footer>
     </body>
 </html>
