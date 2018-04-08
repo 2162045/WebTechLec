@@ -1,25 +1,47 @@
-CSS Declarations
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>CSS Declarations</title>
+    </head>
+    <body >
+        <header>
+
+       CSS Declarations
+
+        </header>
+
+        <main>
+
 *Properties
 -Shorthand properties
 -Vendor specific extensions (vendor prefixes)
 -Custom properties a.k.a CSS variables (experimental)
 *Values
 -Value processing
-	~keywords
-	~numbvers
-	~dimensions
-		--length
-		--angle units
-		--duration uites
-		--frequency units
-		--resolution units
-	~percentage
-	~URLs and URIs
-	~Colors
-		--color keywords
-		--RGB hexadecimal notation
-		--RGB functions
-		--HSL functions
-		--currentColor, transparent
-	~Strings
-	~Funstions
+    ~keywords
+    ~numbvers
+    ~dimensions
+        --length
+        --angle units
+        --duration uites
+        --frequency units
+        --resolution units
+    ~percentage
+    ~URLs and URIs
+    ~Colors
+        --color keywords
+        --RGB hexadecimal notation
+        --RGB functions
+        --HSL functions
+        --currentColor, transparent
+    ~Strings
+    ~Funstions
+
+        </main>
+        <footer>
+           Baguio City, Philippines 2600, (+65)977-826-4922 © Webtechnology Copyright 2018
+        </footer>
+    </body>
+</html>
