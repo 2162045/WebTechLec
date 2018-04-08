@@ -1,0 +1,51 @@
+html {
+    background-color: aquamarine;
+}
+
+header {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    height: 400px;
+    background-color: aliceblue;
+}
+
+header img {
+    float: left;
+    padding: 100px;
+    width: 200px;
+}
+
+header div {
+    float: left;
+    padding: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 400px;
+    background-color: aliceblue;
+}
+
+main {
+    background-color: aliceblue;
+    padding: 100px;
+    padding-top: 0;
+    margin: 100px;
+    margin-top: 0;
+    clear: both;
+}
+
+img {
+    width: 400px;
+}
+
+body main div.preprocessor {
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+main h1.CSSD {
+    margin-top: 100px;
+    padding-top: 100px;
+}
