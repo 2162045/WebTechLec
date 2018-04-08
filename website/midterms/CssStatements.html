@@ -16,8 +16,17 @@
         </header>
 
         <main>
-<h1>CSS Selectors</h1>
-    <h2>
+<h1>CSS Selectors</h1>\<div>
+		<h3>Specificity</h3>
+		<p>The more specific you are in targeting the element by using different selectors the more 			
+		likely it would be following the style implemented. Inline styles such as italic or bold 			
+		will override styles from external style sheets. Universal selectors do not have any 			
+		effect on specificity including combinators like (eg. >, ~). The !important method 			
+		overrides all declarations. This method may be effective but a bad practice since it 			
+		would be more difficult during the debugging process. Specificity will be applied to the 			
+		element with multiple declarations and will take precedence based on the value of the 			
+		selectors.</p>
+	</div>    <h2>
       Selectors
           </h2>
           <p>
@@ -98,25 +107,61 @@
     <p>counter-reset: topic 0;
     
 <h2>Simple Selectors</h2>
-   <p>
-      Universal Selector (*) 
+   <ul>
+   <li>Universal Selector (*) </li>  
+        
      -string together as a sequence.
      -The * selector can also select all elements inside another element 
           <img src="universal selector.png">
-          </p>
+        
           
           
-   <p>
-     Type Selector 
+  <li>Type Selector </li>
+    
      -name of element.When Css is apply on the element,all the element that has the same attribute name will apply the css.
      Example:
      The following rule matches all h3 elements in the document tree:
 
 h3 { font-family: sans-serif }
      
-          </p> 
-  <p>
-    
+          </ul>
+    <div>
+		<h3>Origin of Style Sheets</h3>
+		<p>CSS' algorithm is to determine CSS declarations 
+		in order to choose the appropriate values for CSS properties.</p>
+		<p>author – specifies style sheet for a source document 
+		according to the conventions of the document language.</p>
+		<p>user – the user may specify a file that contains a 
+		style sheet or the user agent may provide an interface that 
+		generates a user style sheet.</p>
+		<p>user agent – A user agent's default style sheet 
+		should present the elements of the document language 
+		in ways that satisfy general presentation expectations.</p>
+	</div>
+	
+	<div>
+		<h3>Calculating CSS Specificity Value</h3>
+		<p>The browser calculates each selectors' specificity value and 
+		then compares them to check which among them is the highest 
+		and applies the declarations to the element targeted</p>
+		<p>Highest Specificity → Lowest Specificity</p>
+		<p>Style Attribute → ID → Class, pseudo-class, attribute → Elements</p>
+		<p>Sample “ul#nav li.toggled a”</p>
+		
+		<table>
+			<tr>
+				<th>Style Attribute</th>
+				<th>ID</th>
+				<th>class, pseudo-class, attrb</th>
+				<th>Elements</th>
+			</tr>
+			<tr>
+				<td>0</td>
+				<td>1</td>
+				<td>1</td>
+				<td>3</td>
+			</tr>
+		</table>
     
         </main>
         <footer>
