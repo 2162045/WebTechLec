@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Waukegan';
-    src: url('./css/Waukegan-LDO-Extended.ttf.woff')
+    src: url('Waukegan-LDO-Extended.ttf.woff')
 }
 
 #background {
@@ -167,6 +167,7 @@ input:checked ~ nav > ul > li {
 }
 
 .unequal-column h2 {
+    font-family: 'Waukegan';
     text-align: center;
 }
 
@@ -193,6 +194,7 @@ input:checked ~ nav > ul > li {
 
 .equal-column h2 {
     text-align: center;
+    font-family: 'Waukegan'
 }
 
 .row {
@@ -213,6 +215,10 @@ input:checked ~ nav > ul > li {
     font-size: 50px;
 }
 
+.team {
+    width: 100%;
+}
+
 footer {
     position: fixed;
     color: #7f8c8d;
@@ -228,12 +234,14 @@ footer {
 @media screen and (max-width:1200px) {
     .col {
         width: 40%;
+        height: 40%;
     }
 }
 
 @media screen and (max-width:600px) {
     .col {
         width: 90%;
+        height: 90%;
     }
     .container {
         flex-flow: column wrap;
