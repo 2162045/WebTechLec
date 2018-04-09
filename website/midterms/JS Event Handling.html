@@ -5,18 +5,49 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <title></title>
     </head>
+
     <body >
         <header>
-
-   
         </header>
 
         <main>
+            
+            <h2>Event Handler Mapping (DOM)</h2>
+                <p><b>Event</b> is a signal that an action occurs. DOM nodes are the one who creates signals</p>
+                <p>Some events are<b> mouse events, form elements events, keyboard events, document events and css events. Event handler is a program script that triggers if an action occur.</b></p>
 
- 
+            <h3>Ways to assign Event Handler</h3>
+                <ul>
+                    <li>HTML attribute</li>
+                    <img src="../images/a.png">
+                    <li>DOM property</li>
+                    <img src="../images/b.png">
+                    <li>Methods</li>
+                    <img src="../images/c.png">
+                </ul> 
+
+
+            <p>There are two phase:</p>
+            <ul>
+                <p>For example you trigger the element<br> <img src="../images/p2.png"> </p>
+
+                <li><b>Capture Phase</b> - starts in the handler, then to its parents, then follows all the way up to its ancestors.</li>
+                <img src="../images/p.png">
+                <li><b>Bubble Phase</b> - starts in its parent, then follows its children until it reach the handler'. </li>
+                <img src="../images/p1.png">
+            </ul>
+
+            <h2>Event Handler Registration</h2>
+            <h3>There are 4 ways to implement it</h3>
+            <ul>
+                <li>Method 1 - Inline HTML event attribute</li>
+                <li>Method 2 (pre-DOM level2)-</li>
+                <li>Method 3 DOM L2 - event registration</li>
+                <li>Method 4 (Microsoft-specific, non standard)</li>
+            </ul>
         </main>
+
         <footer>
-           
         </footer>
     </body>
 </html>
