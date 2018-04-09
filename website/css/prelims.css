@@ -24,6 +24,10 @@ p {
   font-family: "Bookman Old style";
 }
 
+#results {
+  text-align: center;
+}
+
 input.MyButton {
   height: 50px;
   width: 150px;

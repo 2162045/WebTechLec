@@ -1,186 +1,190 @@
 <!DOCTYPE html>
-  <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="../css/prelims.css">
-  </head>
-  <body>
+
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="../css/prelims.css">
+  <title>Web Technology Course Website</title>
+</head>
+
+<body>
+  <!--   Header-->
+  <header>
+    <a href="../index.html"> <img class="logo" src="../images/ourlogo.png" alt="My Logo"> </a>
+    <input id="menu" type="checkbox" />
+    <label for="menu"> <span></span> <span></span> <span></span> </label>
     <nav>
-    <div class="navbar">
-    <div class="dropdown">
-    <button class="dropbtn">MENU</button>
-    <div class="dropdown-content">
-    <a href="../index.html">Home</a>
-    <a href="../html/HypertextMarkupLanguage.html">Hypertext Markup Language</a>
-    <a href="../html/HypertextTransferProtocol.html">Hypertext Transfer Protocol</a>
-    <a href="../html/UniformResourceLocator.html">Uniform Resource Locator</a>
-    <a href="../html/WorldWideWeb.html">World Wide Web</a>
-    </div>
-    </div>
-    </div>
+      <ul>
+        <li> <a href="HypertextMarkupLanguage.html">Hypertext Markup Language</a> </li>
+        <li> <a href="HypertextTransferProtocol.html">Hypertext Transfer Protocol</a> </li>
+        <li> <a href="UniformResourceLocator.html">Uniform Resource Locator</a> </li>
+        <li> <a href="WorldWideWeb.html">World Wide Web</a> </li>
+      </ul>
     </nav>
-        <section>
-    <div id="page-wrap">
+  </header>
+  <!--    Content-->
+  <div class="content-wrapper">
+    <section>
+      <h1>Test yourself</h1>
 
-        <h1>Test yourself</h1>
+      <form action="grade.html" method="post" id="quiz">
 
-        <form action="grade.html" method="post" id="quiz">
+        <ol>
 
-            <ol>
+          <li>
 
-                <li>
+            <h3> This is the first initial version of HTTP .It has  a simple client-server, request-response, telnet-friendly protocol</h3>
 
-                    <h3> This is the first initial version of HTTP .It has  a simple client-server, request-response, telnet-friendly protocol</h3>
+            <div>
+              <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
+              <label for="question-1-answers-A">A)HTTP 0.9  </label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
-                        <label for="question-1-answers-A">A)HTTP 0.9  </label>
-                    </div>
+            <div>
+              <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
+              <label for="question-1-answers-B">B)HTTP 1.1</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
-                        <label for="question-1-answers-B">B)HTTP 1.1</label>
-                    </div>
+            <div>
+              <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
+              <label for="question-1-answers-C">C) HTTP 2.0 </label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-C" value="C" />
-                        <label for="question-1-answers-C">C) HTTP 2.0 </label>
-                    </div>
+            <div>
+              <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
+              <label for="question-1-answers-D">D) None of the above</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-1-answers" id="question-1-answers-D" value="D" />
-                        <label for="question-1-answers-D">D) None of the above</label>
-                    </div>
+          </li>
 
-                </li>
+          <li>
 
-                <li>
+            <h3>An application program that makes a connections for the purpose of sending requests.</h3>
 
-                    <h3>An application program that makes a connections for the purpose of sending requests.</h3>
+            <div>
+              <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
+              <label for="question-2-answers-A">A) Server</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
-                        <label for="question-2-answers-A">A) Server</label>
-                    </div>
+            <div>
+              <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+              <label for="question-2-answers-B">B) URI</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
-                        <label for="question-2-answers-B">B) URI</label>
-                    </div>
+            <div>
+              <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+              <label for="question-2-answers-C">C) Client</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
-                        <label for="question-2-answers-C">C) Client</label>
-                    </div>
+            <div>
+              <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
+              <label for="question-2-answers-D">D) Cache</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
-                        <label for="question-2-answers-D">D) Cache</label>
-                    </div>
+          </li>
 
-                </li>
+          <li>
 
-                <li>
+            <h3>Similar as the GET method but the only difference is it only returns the HTTP headers or the metadata.</h3>
 
-                    <h3>Similar as the GET method but the only difference is it only returns the HTTP headers or the metadata.</h3>
+            <div>
+              <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
+              <label for="question-3-answers-A">A) POST</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
-                        <label for="question-3-answers-A">A) POST</label>
-                    </div>
+            <div>
+              <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
+              <label for="question-3-answers-B">B) GET</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-B" value="B" />
-                        <label for="question-3-answers-B">B) GET</label>
-                    </div>
+            <div>
+              <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
+              <label for="question-3-answers-C">C)  PATCH</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-C" value="C" />
-                        <label for="question-3-answers-C">C)  PATCH</label>
-                    </div>
+            <div>
+              <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
+              <label for="question-3-answers-D">D) HEAD</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-3-answers" id="question-3-answers-D" value="D" />
-                        <label for="question-3-answers-D">D) HEAD</label>
-                    </div>
+          </li>
 
-                </li>
+          <li>
 
-                <li>
+            <h3> A method property which read only semantics</h3>
 
-                    <h3> A method property which read only semantics</h3>
+            <div>
+              <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
+              <label for="question-4-answers-A">A)Safe Methods</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
-                        <label for="question-4-answers-A">A)Safe Methods</label>
-                    </div>
+            <div>
+              <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
+              <label for="question-4-answers-B">B)Idempotent Method</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-B" value="B" />
-                        <label for="question-4-answers-B">B)Idempotent Method</label>
-                    </div>
+            <div>
+              <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
+              <label for="question-4-answers-C">C) Cacheable Method</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-C" value="C" />
-                        <label for="question-4-answers-C">C) Cacheable Method</label>
-                    </div>
+            <div>
+              <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
+              <label for="question-4-answers-D">D) All of the above</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-4-answers" id="question-4-answers-D" value="D" />
-                        <label for="question-4-answers-D">D) All of the above</label>
-                    </div>
+          </li>
 
-                </li>
+          <li>
 
-                <li>
-
-                    <h3>Client error responses 402
+            <h3>Client error responses 402
 
 
 </h3>
 
-                    <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
-                        <label for="question-5-answers-A">A) NOT FOUND</label>
-                    </div>
+            <div>
+              <input type="radio" name="question-5-answers" id="question-5-answers-A" value="A" />
+              <label for="question-5-answers-A">A) NOT FOUND</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
-                        <label for="question-5-answers-B">B)BAD REQUEST</label>
-                    </div>
+            <div>
+              <input type="radio" name="question-5-answers" id="question-5-answers-B" value="B" />
+              <label for="question-5-answers-B">B)BAD REQUEST</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
-                        <label for="question-5-answers-C">C.)UNAUTHORIZED</label>
-                    </div>
+            <div>
+              <input type="radio" name="question-5-answers" id="question-5-answers-C" value="C" />
+              <label for="question-5-answers-C">C.)UNAUTHORIZED</label>
+            </div>
 
-                    <div>
-                        <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
-                        <label for="question-5-answers-D">D) None of the above</label>
-                    </div>
+            <div>
+              <input type="radio" name="question-5-answers" id="question-5-answers-D" value="D" />
+              <label for="question-5-answers-D">D) None of the above</label>
+            </div>
 
-                </li>
+          </li>
 
-            </ol>
-            <br>
-            <br>
-            <input type="submit" value="Submit Quiz" />
+        </ol>
+        <br>
+        <br>
+        <div id="formbox">
+          <input class="MyButton" type="submit" value="Submit Quiz" />
+        </div>
 
-        </form>
+      </form>
 
-    </div>
-  </section>
+    </section>
     <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
     </script>
     <script type="text/javascript">
-    var pageTracker = _gat._getTracker("UA-68528-29");
-    pageTracker._initData();
-    pageTracker._trackPageview();
+      var pageTracker = _gat._getTracker("UA-68528-29");
+      pageTracker._initData();
+      pageTracker._trackPageview();
     </script>
-    <footer>
-      <div id="contact"> <p>Baguio City, Philippines 2600, (+65)977-826-4922 &copy; Webtechnology Copyright 2018</p></div>
-            </footer>
+    <footer>Baguio City, Philippines 2600, (+63)977-826-4922 © Webtechnology Copyright 2018</footer>
+  </div>
 </body>
 
 </html>

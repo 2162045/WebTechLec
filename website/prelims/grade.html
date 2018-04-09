@@ -1,31 +1,35 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 
 <head>
   <link rel="stylesheet" type="text/css" href="../css/prelims.css">
+  <title>Web Technology Course Website</title>
 </head>
 
 <body>
-  <nav>
-    <div class="navbar">
-      <div class="dropdown">
-        <button class="dropbtn">MENU</button>
-        <div class="dropdown-content">
-          <a href="../index.html">Home</a>
-          <a href="../html/HypertextMarkupLanguage.html">Hypertext Markup Language</a>
-          <a href="../html/HypertextTransferProtocol.html">Hypertext Transfer Protocol</a>
-          <a href="../html/UniformResourceLocator.html">Uniform Resource Locator</a>
-          <a href="../html/WorldWideWeb.html">World Wide Web</a>
-        </div>
-      </div>
-    </div>
-  </nav>
-  <section>
-    <div id="page-wrap">
+  <!--   Header-->
+  <header>
+    <a href="../index.html"> <img class="logo" src="../images/ourlogo.png" alt="My Logo"> </a>
+    <input id="menu" type="checkbox" />
+    <label for="menu"> <span></span> <span></span> <span></span> </label>
+    <nav>
+      <ul>
+        <li> <a href="HypertextMarkupLanguage.html">Hypertext Markup Language</a> </li>
+        <li> <a href="HypertextTransferProtocol.html">Hypertext Transfer Protocol</a> </li>
+        <li> <a href="UniformResourceLocator.html">Uniform Resource Locator</a> </li>
+        <li> <a href="WorldWideWeb.html">World Wide Web</a> </li>
+      </ul>
+    </nav>
+  </header>
+  <!--    Content-->
+  <div class="content-wrapper">
+    <section>
+      <div id="page-wrap">
 
-      <h1>Score</h1>
+        <h1>Score</h1>
 
-      <?php
+        <?php
 
             $answer1 = $_POST['question-1-answers'];
             $answer2 = $_POST['question-2-answers'];
@@ -45,23 +49,19 @@
 
         ?>
 
-    </div>
-    <script type="text/javascript">
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-      var pageTracker = _gat._getTracker("UA-68528-29");
-      pageTracker._initData();
-      pageTracker._trackPageview();
-    </script>
-  </section>
-</body>
-<footer>
-
-  <div id="contact">
-    <p>Baguio City, Philippines 2600, (+65)977-826-4922 &copy; Webtechnology Copyright 2018</p>
+      </div>
+      <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-68528-29");
+        pageTracker._initData();
+        pageTracker._trackPageview();
+      </script>
+    </section>
+    <footer>Baguio City, Philippines 2600, (+63)977-826-4922 © Webtechnology Copyright 2018</footer>
   </div>
-</footer>
+</body>
 
 </html>
