@@ -1,0 +1,570 @@
+Add files via upload
+@2163358
+2163358 committed 12 minutes ago
+Verified  5e519d8  
+Merge branch 'master' of https://github.com/2162045/WebTechLec
+@janr22
+janr22 committed 22 minutes ago
+29d64d2  
+format
+@janr22
+janr22 committed 23 minutes ago
+8ff517a  
+fixed css for term home
+@yzcacho
+yzcacho committed 28 minutes ago
+3aa0c5c  
+format
+@janr22
+janr22 committed 30 minutes ago
+df02086  
+fixed home
+@yzcacho
+yzcacho committed 37 minutes ago
+cbddb08  
+made changes to term home
+@yzcacho
+yzcacho committed 39 minutes ago
+38e6a39  
+Merge branch 'master' of https://github.com/2162045/WebTechLec  …
+@yzcacho
+yzcacho committed 41 minutes ago
+a8bc7ec  
+format
+@janr22
+janr22 committed 42 minutes ago
+9ea8153  
+Merge branch 'master' of https://github.com/2162045/WebTechLec
+@2162045
+2162045 committed 42 minutes ago
+93327c9  
+edited js handling
+@2162045
+2162045 committed 42 minutes ago
+56d84d8  
+Merge branch 'master' of https://github.com/2162045/WebTechLec  …
+@yzcacho
+yzcacho committed 42 minutes ago
+cb01e94  
+term.css
+@yzcacho
+yzcacho committed 42 minutes ago
+ead9ea9  
+Add files via upload
+@2163358
+2163358 committed an hour ago
+Verified  8af2c99  
+Merge branch 'master' of https://github.com/2162045/WebTechLec  …
+@yzcacho
+yzcacho committed an hour ago
+ed457ef  
+added term.css
+@yzcacho
+yzcacho committed an hour ago
+0b2041b  
+Merge branch 'master' of https://github.com/2162045/WebTechLec
+@2162045
+2162045 committed an hour ago
+c8af8eb  
+Js Handling
+@2162045
+2162045 committed an hour ago
+a6d4599  
+added css
+@yzcacho
+yzcacho committed an hour ago
+a440bf8  
+fix image selectors
+@yzcacho
+yzcacho committed an hour ago
+467640f  
+added images
+@yzcacho
+yzcacho committed an hour ago
+a011695  
+Merge branch 'master' of https://github.com/2162045/WebTechLec
+@janr22
+janr22 committed an hour ago
+ab82162  
+change h2 to h1
+@janr22
+janr22 committed an hour ago
+7fd7485  
+Update HTML STYLESHEET.html
+@2163358
+2163358 committed an hour ago
+Verified  e5bf5b1  
+Merge branch 'master' of https://github.com/2162045/WebTechLec
+@janr22
+janr22 committed an hour ago
+b432af1  
+change header
+@janr22
+janr22 committed an hour ago
+b2095bc  
+editing JS event handling
+@2162045
+2162045 committed an hour ago
+0f3e5fd  
+Update HTML STYLESHEET.html
+@2163358
+2163358 committed an hour ago
+Verified  2ee2b76  
+Create CssSelectors.html
+@2163358
+2163358 committed 2 hours ago
+Verified  81015d8  
+Add files via upload
+@2163358
+2163358 committed 2 hours ago
+Verified  db6a14a  
+add info
+@2163358
+2163358 committed 2 hours ago
+Verified  b7c58a0  
+Add files via upload
+@2163358
+2163358 committed 3 hours ago
+Verified  12e5ff3  
+added JS Event Handling
+@2162045
+2162045 committed 3 hours ago
+81c2fdc  
+Merge branch 'master' of https://github.com/2162045/WebTechLec
+@2162045
+2162045 committed 3 hours ago
+4351c89  
+Edited the tags
+@2163358
+2163358 committed 3 hours ago
+Verified  a8dcd3a  
+NewerOlder
+
+edited Bootstrap html
+@2162045
+2162045 committed 17 hours ago
+cabac48  
+AbiRubrico edited CSSDeclarations.html
+@AbiRubrico
+AbiRubrico committed 18 hours ago
+4bacee6  
+added css
+@yzcacho
+yzcacho committed 20 hours ago
+7de0d06  
+fix
+@yzcacho
+yzcacho committed 20 hours ago
+dd6d28a  
+Update CSSDeclarations.html
+@2163358
+2163358 committed 21 hours ago
+Verified  90a3eaa  
+Add files via upload
+@2163358
+2163358 committed 22 hours ago
+Verified  ed43107  
+Add files via upload
+@2163358
+2163358 committed 22 hours ago
+Verified  9361148  
+remove unnessary contents
+@janr22
+janr22 committed 22 hours ago
+d7066b3  
+add picture for team section, change color scheme
+@janr22
+janr22 committed 22 hours ago
+6f6c1e4  
+Update HTML STYLESHEET.html
+@2163358
+2163358 committed 22 hours ago
+Verified  68f3220  
+Update CssSelectors.html
+@2163358
+2163358 committed 22 hours ago
+Verified  c41026b  
+added info
+@2163358
+2163358 committed 22 hours ago
+Verified  98faae0  
+some revisions
+@yzcacho
+yzcacho committed 22 hours ago
+5e58423  
+Add files via upload
+@2163358
+2163358 committed 22 hours ago
+Verified  fc3e7b9  
+Merge branch 'master' of https://github.com/2162045/WebTechLec
+@2162045
+2162045 committed 22 hours ago
+7e149f8  
+editing Bootstrap
+@2162045
+2162045 committed 22 hours ago
+ 1  54bda22  
+Added CSS for CSS.html
+@yzcacho
+yzcacho committed 22 hours ago
+a795a91  
+edit the directory
+@2163358
+2163358 committed 22 hours ago
+Verified  fb1c9c9  
+add image
+@2163358
+2163358 committed 23 hours ago
+Verified  eac5b90  
+add info
+@2163358
+2163358 committed 23 hours ago
+Verified  fb40378  
+Add files via upload
+@2163358
+2163358 committed 23 hours ago
+Verified  91731ae  
+Add files via upload
+@2163358
+2163358 committed 23 hours ago
+Verified  ad6d64e  
+fixed headers
+@2162045
+2162045 committed 23 hours ago
+a1e7ccb  
+Merge branch 'master' of https://github.com/2162045/WebTechLec
+@janr22
+janr22 committed 23 hours ago
+84ce88a  
+edit team section for better responsiveness
+@janr22
+janr22 committed 23 hours ago
+e3af0ac  
+insert the headers
+@2162045
+2162045 committed a day ago
+476d5ae  
+Add files via upload
+@2163358
+2163358 committed a day ago
+Verified  b32ef3a  
+add info
+@2163358
+2163358 committed a day ago
+Verified  865e2b2  
+formats CSS selectors
+@2162045
+2162045 committed a day ago
+db7f5ae  
+Merge branch 'master' of https://github.com/2162045/WebTechLec
+@2162045
+2162045 committed a day ago
+45bf538  
+css Selectors format
+@2162045
+2162045 committed a day ago
+bf20dbf  
+add info
+@2163358
+2163358 committed a day ago
+Verified  5e24a8c  
+add info
+@2163358
+2163358 committed a day ago
+Verified  262d8ae  
+add info
+@2163358
+2163358 committed a day ago
+Verified  8dfdfcd  
+Merge branch 'master' of https://github.com/2162045/WebTechLec
+@janr22
+janr22 committed a day ago
+18d2125  
+NewerOlder
+
+change target directories
+@janr22
+janr22 committed a day ago
+331d449  
+add html file
+@2163358
+2163358 committed a day ago
+Verified  23bf93e  
+edit title
+@2163358
+2163358 committed a day ago
+Verified  41d41c6  
+added ang changed some information
+@2163358
+2163358 committed a day ago
+Verified  ae2f85d  
+Update CSS PREPROCESSORS,FRAMEWORKS AND LIBRARIES.html
+@2163358
+2163358 committed a day ago
+Verified  c363e33  
+Add files via upload
+@2163358
+2163358 committed a day ago
+Verified  f3d2ab1  
+add info
+@2163358
+2163358 committed a day ago
+Verified  286f932  
+added images for the css selectors
+@2163358
+2163358 committed a day ago
+Verified  3864e04  
+added image
+@2163358
+2163358 committed a day ago
+Verified  2b368dc  
+add info
+@2163358
+2163358 committed a day ago
+Verified  dde80cb  
+Delete Selectors.html
+@2163358
+2163358 committed a day ago
+Verified  7da9e8c  
+add information
+@2163358
+2163358 committed a day ago
+Verified  49d58b9  
+added information
+@2163358
+2163358 committed a day ago
+Verified  13a113d  
+added hyperlinks to resources
+@yzcacho
+yzcacho committed a day ago
+21d0130  
+AbiRubrico edited CSSDeclarations.txt
+@AbiRubrico
+AbiRubrico committed a day ago
+ffc70e1  
+Merge branch 'master' of https://github.com/2162045/WebTechLec
+@AbiRubrico
+AbiRubrico committed a day ago
+b55e714  
+AbiRubrico edited midterms.html
+@AbiRubrico
+AbiRubrico committed a day ago
+60a9264  
+Add files via upload
+@yzcacho
+yzcacho committed a day ago
+Verified  440d652  
+Added information
+@2163358
+2163358 committed a day ago
+Verified  a69dec6  
+Add files via upload
+@2163358
+2163358 committed a day ago
+Verified  636302f  
+Merge branch 'master' of https://github.com/2162045/WebTechLec
+@janr22
+janr22 committed a day ago
+ecc611c  
+added responsive feature for column
+@janr22
+janr22 committed a day ago
+8c74fb7  
+Formatted the files
+@2162045
+2162045 committed a day ago
+4ef80a8  
+Create JS,perprocessors,Frameworks,and Libraries.html
+@2163358
+2163358 committed a day ago
+Verified  e95bd67  
+Create Document Object.html
+@2163358
+2163358 committed a day ago
+Verified  a249fd6  
+Create JavaScript Fundamental.html
+@2163358
+2163358 committed a day ago
+Verified  a61e066  
+Create client-side web scripting.html
+@2163358
+2163358 committed a day ago
+Verified  4dcfec1  
+Create Bootstrap.html
+@2163358
+2163358 committed a day ago
+Verified  dab92ad  
+Create CSS PREPROCESSORS,FRAMEWORKS AND LIBRARIES.html
+@2163358
+2163358 committed a day ago
+Verified  cd9f842  
+AbiRubrico edited CSSDeclarations.txt
+@AbiRubrico
+AbiRubrico committed a day ago
+74d76a0  
+added mid.css
+@2162045
+2162045 committed a day ago
+9bb1564  
+edit
+@2162045
+2162045 committed a day ago
+b9a9a4d  
+Transform text files to HTML files
+@2162045
+2162045 committed a day ago
+851f9d0  
+Merge branch 'master' of https://github.com/2162045/WebTechLec
+@janr22
+janr22 committed a day ago
+de9439c  
+Merge branch 'master' of https://github.com/2162045/WebTechLec
+@2162045
+2162045 committed a day ago
+change target dir
+@janr22
+janr22 committed a day ago
+714ea9a  
+change target directory
+@janr22
+janr22 committed a day ago
+79c2f22  
+added scis logo
+@janr22
+janr22 committed a day ago
+810409e  
+added font for h1-h6
+@janr22
+janr22 committed a day ago
+a2bd1a3  
+added team section
+@janr22
+janr22 committed a day ago
+ebf0ffa  
+edited CssStatement html
+@2162045
+2162045 committed a day ago
+2390957  
+Commits on Mar 28, 2018
+remove about
+@janr22
+janr22 committed 12 days ago
+441aed5  
+revise
+@janr22
+janr22 committed 12 days ago
+5c6517e  
+revise
+@janr22
+janr22 committed 12 days ago
+05fa91c  
+Commits on Mar 26, 2018
+Our logo
+@janr22
+janr22 committed 14 days ago
+de1e380  
+Commits on Mar 22, 2018
+added CSS selectors, combinators psuedo classes
+@2162045
+2162045 committed 18 days ago
+701ecc5  
+deleted webtechlec folder
+@2162045
+2162045 committed 18 days ago
+3f09354  
+Added Css Statement
+@2162045
+2162045 committed 18 days ago
+6fa5f00  
+Commits on Mar 18, 2018
+AbiRubrico deleted a folder
+@AbiRubrico
+AbiRubrico committed 22 days ago
+d5d4c3e  
+AbiRubrico added a new text file.
+@AbiRubrico
+AbiRubrico committed 22 days ago
+5ad3d10  
+remove whitespaces
+@janr22
+janr22 committed 22 days ago
+6ebbf02  
+beautify
+@janr22
+janr22 committed 22 days ago
+4a2f9f9  
+remove unnecessary elements
+@janr22
+janr22 committed 22 days ago
+7996a36  
+Commits on Mar 17, 2018
+beutify
+@janr22
+janr22 committed 23 days ago
+e0b14ea  
+format
+@janr22
+janr22 committed 23 days ago
+53b9bbc  
+Commits on Mar 4, 2018
+edit change dir
+@janr22
+janr22 committed on Mar 4
+03db4bf  
+edit alternate names images
+@janr22
+janr22 committed on Mar 4
+9d1fd0a  
+edit index
+@janr22
+janr22 committed on Mar 4
+d2ac233  
+add style sheet for index and terms html
+@janr22
+janr22 committed on Mar 4
+ba00f5a  
+add finals text
+@janr22
+janr22 committed on Mar 4
+be1c2f0  
+add prelims, midterms, finals for notes
+@janr22
+janr22 committed on Mar 4
+11c9e8a  
+add html home for prelims, midterms, finals
+@janr22
+janr22 committed on Mar 4
+c4270f1  
+add folders prelims, midterms, finals
+@janr22
+janr22 committed on Mar 4
+a790ff3  
+delete and move files
+@janr22
+janr22 committed on Mar 4
+ea41d37  
+add apache config
+@janr22
+janr22 committed on Mar 4
+9f4d94a  
+delete unnecessary files
+@janr22
+janr22 committed on Mar 4
+661d012  
+Commits on Mar 2, 2018
+Add files via upload
+@2163358
+2163358 committed on Mar 2
+Verified  5ef38e6  
+Add files via upload
+@2163358
+2163358 committed on Mar 2
+Verified  5de429d  
+Delete MIDTERMS
+@2163358
+2163358 committed on Mar 2
+Verified  4b26c3a  
+Create MIDTERMS
+@2163358
+2163358 committed on Mar 2
+Verified  7eaa338  
