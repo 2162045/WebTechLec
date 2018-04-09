@@ -2,52 +2,73 @@
 <html>
     <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/midterm.css">
     <title></title>
     </head>
 
     <body >
         <header>
-        </header>
-
+        <a href="../index.html"> <img class="logo" src="../images/ourlogo.png" alt="My Logo"> </a>
+        <input id="menu" type="checkbox" />
+        <label for="menu"> <span></span> <span></span> <span></span> </label>
+        <nav>
+            <ul>
+                <li> <a href="HTML%20STYLESHEET.html">HTML STYLESHEET</a> </li>
+                <li> <a href="Document%20Object.html">Document Object</a> </li>
+                <li> <a href="CSS.html">CSS</a> </li>
+                <li> <a href="CSSDeclarations.html">CSSDeclarations</a> </li>
+                <li> <a href="CSSPreprocessors.html">CSSPreprocessors</a> </li>
+                <li> <a href="CSSSelectors.html">CSSSelectors</a> </li>
+                <li> <a href="Bootstrap.html">Bootstrap</a> </li>
+                <li> <a href="JavaScript%20Fundamental.html">JavaScript Fundamental</a> </li>
+                <li> <a href="JS,perprocessors,Frameworks,and Libraries.html">JS,perprocessors,Frameworks,and Libraries</a> </li>
+                <li> <a href="JS%20Event%20Handling.html">JS Event Handling</a> </li>
+            </ul>
+        </nav>
+    </header>
         <main>
             
             <h2>Event Handler Mapping (DOM)</h2>
                 <p><b>Event</b> is a signal that an action occurs. DOM nodes are the one who creates signals</p>
-                <p>Some events are<b> mouse events, form elements events, keyboard events, document events and css events. Event handler is a program script that triggers if an action occur.</b></p>
+                <p>Some events are<b> mouse events, form elements events, keyboard events, document events and css events.<br> Event handler</b> is a program script that triggers if an action occur.</p><br>
 
             <h3>Ways to assign Event Handler</h3>
                 <ul>
                     <li>HTML attribute</li>
-                    <img src="../images/a.png">
+                    <img src="../images/a.png"><br><br>
                     <li>DOM property</li>
-                    <img src="../images/b.png">
+                    <img src="../images/b.png"><br><br>
                     <li>Methods</li>
-                    <img src="../images/c.png">
+                    <img src="../images/c.png"><br><br>
                 </ul> 
 
 
             <p>There are two phase:</p>
             <ul>
-                <p>For example you trigger the element<br> <img src="../images/p2.png"> </p>
+                <p>For example you trigger the element <b> < p ></b> </p><br>
 
                 <li><b>Capture Phase</b> - starts in the handler, then to its parents, then follows all the way up to its ancestors.</li>
                 <img src="../images/p.png">
                 <li><b>Bubble Phase</b> - starts in its parent, then follows its children until it reach the handler'. </li>
                 <img src="../images/p1.png">
-            </ul>
+            </ul><br>
 
-            <h2>Event Handler Registration</h2>
-            <h3>There are 4 ways to implement it</h3>
+            <h2>Event Handler Registration</h2><br>
+            <h3>There are 4 ways of implementing</h3>
             <ul>
                 <li>Method 1 - Inline HTML event attribute</li>
-                <li>Method 2 (pre-DOM level2)-</li>
+                <li>Method 2 (pre-DOM level2)</li>
+                    <p>Can register more than one element</p>
                 <li>Method 3 DOM L2 - event registration</li>
+                    <p>Can register more than one element</p>
+                    <p>can register handler on bubble phase and capture phase</p>
                 <li>Method 4 (Microsoft-specific, non standard)</li>
+                    <p>Can register more than one element</p>
+                    <p>can register handler only on bubble phase</p>
             </ul>
         </main>
-
         <footer>
+           Baguio City, Philippines 2600, (+65)977-826-4922 © Webtechnology Copyright 2018
         </footer>
     </body>
 </html>
