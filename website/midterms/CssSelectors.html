@@ -1,190 +1,180 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="../css/mid.css">
-        <title>
-          CSS Selectors
-        </title>
-    </head>
 
-    <body>
-        <header>
-            <img class="logo" src="../images/ourlogo.png" alt="My Logo"
-            <input id="menu" type="checkbox" />
-            <label for="menu"> <span></span> <span></span> <span></span> </label>
-            <nav>
-                <ul>
-                    <li> <a href="../prelims/prelims.html">prelims</a> </li>
-                    <li> <a href="../midterms/midterms.html">midterms</a> </li>
-                    <li> <a href="../finals/finals.html">finals</a> </li>
-                </ul>
-            </nav>
-        </header>
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../css/midterm.css">
+  <title>Document Object</title>
+</head>
 
-        <main>
-          <h1>CSS Selectors</h1>
-            <div>
-          		<h3>Specificity</h3>
-            		<p>The more specific you are in targeting the element by using different selectors the more 			
-            		likely it would be following the style implemented. Inline styles such as italic or bold 			
-            		will override styles from external style sheets. Universal selectors do not have any 			
-            		effect on specificity including combinators like (eg. >, ~). The !important method 			
-            		overrides all declarations. This method may be effective but a bad practice since it 			
-            		would be more difficult during the debugging process. Specificity will be applied to the 			
-            		element with multiple declarations and will take precedence based on the value of the 			
-            		selectors.</p>
-          	</div>    
+<body>
+  <header>
+    <a href="../index.html"> <img class="logo" src="../images/ourlogo.png" alt="My Logo"> </a>
+    <input id="menu" type="checkbox" />
+    <label for="menu"> <span></span> <span></span> <span></span> </label>
+    <nav>
+      <ul>
+        <li> <a href="HTML STYLESHEET.html">HTML STYLESHEET</a> </li>
+        <li> <a href="CSS.html">Cascading Style Sheet</a> </li>
+        <li> <a href="CSSPreprocessors.html">CSS Preprocessors</a> </li>
+        <li> <a href="CSSSelectors.html">CSS Selectors</a> </li>
+        <li> <a href="CSSDeclarations.html">CSS Declarations</a> </li>
+        <li> <a href="Bootstrap.html">Bootstrap</a> </li>
+        <li> <a href="JavaScript Fundamental.html">JavaScript Fundamentals</a> </li>
+        <li> <a href="Document Object.html">Document Object</a> </li>
+        <li> <a href="JS,perprocessors,Frameworks,and Libraries.html">JS,perprocessors,Frameworks,and Libraries</a> </li>
+      </ul>
+    </nav>
+  </header>
 
-            <h2>
+  <main>
+    <h1>CSS Selectors</h1>
+    <div>
+      <h3>Specificity</h3>
+      <p>The more specific you are in targeting the element by using different selectors the more likely it would be following the style implemented. Inline styles such as italic or bold will override styles from external style sheets. Universal selectors
+        do not have any effect on specificity including combinators like (eg. >, ~). The !important method overrides all declarations. This method may be effective but a bad practice since it would be more difficult during the debugging process. Specificity
+        will be applied to the element with multiple declarations and will take precedence based on the value of the selectors.
+      </p>
+    </div>
+
+    <h2>
               Selectors
             </h2>
-            <p>
-              structure used a contain in a CSS rule to determine which elements in the document tree are matched by the selector and thus targeted by te formatting specified in tje specified in the CSS rule declaration block.
-            </p>
-            <p> 
-              matches elements are called <i>subjects of the selector.</i>
-            </p>
-            <img src="../images/selectors.jpg">
+    <p>
+      structure used a contain in a CSS rule to determine which elements in the document tree are matched by the selector and thus targeted by te formatting specified in tje specified in the CSS rule declaration block.
+    </p>
+    <p>
+      matches elements are called <i>subjects of the selector.</i>
+    </p>
+    <img src="../images/selectors.jpg">
 
-          
-            <h3>
+
+    <h3>
               Selector Syntax
             </h3>
-                <p>
-                  chain of one or more sequences of simple selectors separated by combinators with one pseudo-element
-                </p>
-                      
-            <h2>
+    <p>
+      chain of one or more sequences of simple selectors separated by combinators with one pseudo-element
+    </p>
+
+    <h2>
               Sequence of simple selectors
             </h2>
 
-            <p>
-              chain of simple selectors separated by combinators
-            </p>
-            <p>
-              starts with type selector or universal combinators: + < 
-            <p>
-                 
-            <p><bold>  only one type or universal selector and it should be at the beginning.</bold></p>
-                  
-               
-                    
-            <h2>Selector Group (,)</h2>
-                <p>comma separated list of selectors representing the union of all elements selected by each of the selector in the list.</p>
-                 
-                <div>
-                  <h3 class = "examples">Example:</h3>
-                    h1, h2, h3{
-                      <br>
-                      <br>color:green;
-                      <br>
-                    }  
-                </div>
-                
-            <h2>Combinators</h2>
-                <p>
-                 <i>combinator</i> are used to impose additional prepending another sequence of selectors amd a   combination to a sequence with sunbjects.
-                </p>
-                    
-                <p>Descendant Combinators (whitespace,tabs,space,line feed)
-                    <p>Child Combinators (>)</p>
-                    <p>Adjacent Combinators</p>
-                    <p>Adjacent sibling (+)</p>
-                    <p>General sibling (~) (any sibling)</p>
-      
-            <h2>Pseudo elements<h2>
+    <p>
+      chain of simple selectors separated by combinators
+    </p>
+    <p>
+      starts with type selector or universal combinators: +
+      < <p>
+
+        <p>
+          <bold> only one type or universal selector and it should be at the beginning.</bold>
+        </p>
+
+
+
+        <h2>Selector Group (,)</h2>
+        <p>comma separated list of selectors representing the union of all elements selected by each of the selector in the list.</p>
+
+        <div>
+          <h3 class="examples">Example:</h3> h1, h2, h3{
+          <br>
+          <br>color:green;
+          <br> }
+        </div>
+
+        <h2>Combinators</h2>
+        <p>
+          <i>combinator</i> are used to impose additional prepending another sequence of selectors amd a combination to a sequence with sunbjects.
+        </p>
+
+        <p>Descendant Combinators (whitespace,tabs,space,line feed)
+          <p>Child Combinators (>)</p>
+          <p>Adjacent Combinators</p>
+          <p>Adjacent sibling (+)</p>
+          <p>General sibling (~) (any sibling)</p>
+
+          <h2>Pseudo elements<h2>
                 <p>:first-letter,::first-letter</p>
                 <p>:first-line,::first-line</p>
                 <p>::before,::before</p>
-                <p>:after,::after</p>        
+                <p>:after,::after</p>
 
 
             <h2>Counters</h2>
-                <p>counter-reset:</p> 
-                <p>chapter 0;</p> 
-                <p>counter-increment: </p> 
-                <p>  chapter 1;</p> 
-                <p>counter-reset: topic 0;</p> 
-        
-            <h2>Simple Selectors</h2>
-                <ul>
-                    <li>Universal Selector (*) </li>    
-                       -string together as a sequence.
-                       -The * selector can also select all elements inside another element 
-                        <img src="universal selector.png">
-                      
-            
-            
-                    <li>Type Selector </li>
-                        <p>-name of element.When Css is apply on the element,all the element that has the same attribute  name will apply the css.
-                         <b>Example:</b>
-                         The following rule matches all h3 elements in the document tree:</p> 
+          <p>counter-reset:</p>
+          <p>chapter 0;</p>
+          <p>counter-increment: </p>
+          <p> chapter 1;</p>
+          <p>counter-reset: topic 0;</p>
 
-                              h3 { font-family: sans-serif }
-                                   <li>ID Selectors</li>
-                                   unique
-                                      Example
-                                        <h1 id='ab'></h1>
-                    
-                    <li>Class Selectors</li>
-                      
-                          ul.top-ten {lisr-style: desc inside;} //ul with class value top-ten
-                  	 
-                     <li>attribute selector</li>
-                      	 <ol>
-                        		<li><img src="../images/1.png"></li>
-                        		<li>img src="../images/2.png"></li>
-                        		<li><img src="../images/3.png"></li>
-                        		<li><img src="../images/4.png"></li>
-                        		<li><img src="../images/5.png"></li>
-                        		<li><img src="../images/6.png"></li>
-                      	 </ol>
-                  
-                  </ul>
+          <h2>Simple Selectors</h2>
+          <ul>
+            <li>Universal Selector (*) </li>
+            -string together as a sequence. -The * selector can also select all elements inside another element
+            <img src="universal selector.png">
 
-              <div>
-              		<h3>Origin of Style Sheets</h3>
-              		<p>CSS' algorithm is to determine CSS declarations 
-              		in order to choose the appropriate values for CSS properties.</p>
-              		<p>author – specifies style sheet for a source document 
-              		according to the conventions of the document language.</p>
-              		<p>user – the user may specify a file that contains a 
-              		style sheet or the user agent may provide an interface that 
-              		generates a user style sheet.</p>
-              		<p>user agent – A user agent's default style sheet 
-              		should present the elements of the document language 
-              		in ways that satisfy general presentation expectations.</p>
-          	</div>
-          	
-          	<div>
-          		<h3>Calculating CSS Specificity Value</h3>
-          		<p>The browser calculates each selectors' specificity value and 
-          		then compares them to check which among them is the highest 
-          		and applies the declarations to the element targeted</p>
-          		<p>Highest Specificity → Lowest Specificity</p>
-          		<p>Style Attribute → ID → Class, pseudo-class, attribute → Elements</p>
-          		<p>Sample “ul#nav li.toggled a”</p>
-          	</div>
 
-          	<table>
-          			<tr>
-          				<th>Style Attribute</th>
-          				<th>ID</th>
-          				<th>class, pseudo-class, attrb</th>
-          				<th>Elements</th>
-          			</tr>
-          			<tr>
-          				<td>0</td>
-          				<td>1</td>
-          				<td>1</td>
-          				<td>3</td>
-          			</tr>
-		        </table>
-    
-        </main>
-        <footer>
-           Baguio City, Philippines 2600, (+65)977-826-4922 © Webtechnology Copyright 2018
-        </footer>
-    </body>
+
+            <li>Type Selector </li>
+            <p>-name of element.When Css is apply on the element,all the element that has the same attribute name will apply the css.
+              <b>Example:</b> The following rule matches all h3 elements in the document tree:</p>
+
+            h3 { font-family: sans-serif }
+            <li>ID Selectors</li>
+            unique Example
+            <h1 id='ab'></h1>
+
+            <li>Class Selectors</li>
+
+            ul.top-ten {lisr-style: desc inside;} //ul with class value top-ten
+
+            <li>attribute selector</li>
+            <ol>
+              <li><img src="../images/1.png"></li>
+              <li>img src="../images/2.png"></li>
+              <li><img src="../images/3.png"></li>
+              <li><img src="../images/4.png"></li>
+              <li><img src="../images/5.png"></li>
+              <li><img src="../images/6.png"></li>
+            </ol>
+
+          </ul>
+
+          <div>
+            <h3>Origin of Style Sheets</h3>
+            <p>CSS' algorithm is to determine CSS declarations in order to choose the appropriate values for CSS properties.</p>
+            <p>author – specifies style sheet for a source document according to the conventions of the document language.</p>
+            <p>user – the user may specify a file that contains a style sheet or the user agent may provide an interface that generates a user style sheet.</p>
+            <p>user agent – A user agent's default style sheet should present the elements of the document language in ways that satisfy general presentation expectations.</p>
+          </div>
+
+          <div>
+            <h3>Calculating CSS Specificity Value</h3>
+            <p>The browser calculates each selectors' specificity value and then compares them to check which among them is the highest and applies the declarations to the element targeted</p>
+            <p>Highest Specificity → Lowest Specificity</p>
+            <p>Style Attribute → ID → Class, pseudo-class, attribute → Elements</p>
+            <p>Sample “ul#nav li.toggled a”</p>
+          </div>
+
+          <table>
+            <tr>
+              <th>Style Attribute</th>
+              <th>ID</th>
+              <th>class, pseudo-class, attrb</th>
+              <th>Elements</th>
+            </tr>
+            <tr>
+              <td>0</td>
+              <td>1</td>
+              <td>1</td>
+              <td>3</td>
+            </tr>
+          </table>
+
+  </main>
+  <footer>Baguio City, Philippines 2600, (+63)977-826-4922 © Webtechnology Copyright 2018</footer>
+  </div>
+</body>
+
 </html>

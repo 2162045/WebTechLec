@@ -2,76 +2,98 @@
 <html>
 
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <title>Java Fundamentals</title>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../css/midterm.css">
+  <title>CSS</title>
 </head>
 
+<body>
+  <header>
+    <a href="../index.html"> <img class="logo" src="../images/ourlogo.png" alt="My Logo"> </a>
+    <input id="menu" type="checkbox" />
+    <label for="menu"> <span></span> <span></span> <span></span> </label>
+    <nav>
+      <ul>
+        <li> <a href="HTML STYLESHEET.html">HTML STYLESHEET</a> </li>
+        <li> <a href="CSS.html">Cascading Style Sheet</a> </li>
+        <li> <a href="CSSPreprocessors.html">CSS Preprocessors</a> </li>
+        <li> <a href="CSSSelectors.html">CSS Selectors</a> </li>
+        <li> <a href="CSSDeclarations.html">CSS Declarations</a> </li>
+        <li> <a href="Bootstrap.html">Bootstrap</a> </li>
+        <li> <a href="JavaScript Fundamental.html">JavaScript Fundamentals</a> </li>
+        <li> <a href="Document Object.html">Document Object</a> </li>
+        <li> <a href="JS,perprocessors,Frameworks,and Libraries.html">JS,perprocessors,Frameworks,and Libraries</a> </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
 
     <body>
-        <img src="../images/jx.png">
-        <h2>JavaScript</h2>
-        <div>
-            <p> JavaScript is the programming language of HTML and the Web,developed by Netscape Communications Corportion, Mozilla Foundation,Ecma International.It is a multi-paradigm,object oriented,imperative,functional language and mostly considered as high-level interpreted programming language.It is commonly used in making dyamic webpages interactive.
-                <p> Javascript is only implemented in client-side in web browser.Client-side code run in browser after page is sent back from server often this code manipultes the page or response to user actions.
-                    <p>Sources of JavaScript
-                        <ul>
-                                        <li>External JavaScript a.k.a Linked</li>
-                                        <p>External JavaScript separates HTML and JavaSciprt code that it makes the developer in easier to read and maintai</p> <img src="../images/js1.png"> <img src="../images/js2.jpg">
-                                        <li>Embedded a.k.a Internal</li> Embedded does'nt separate the HTML and JavaScript code,it is embedded on the JavaScript file.See example below: <img src="../images/js3.png">
-                         </ul>
-                                    <p>Note:
-                         <ul>
-                                        <li>The execution of linked scripts can be deferres or run.</li>
-                                        <li>Link scripts can be defer or async</li>
-                                        <li><i>Async</i> fetch while waitingn for loading and compile ifthe page is available</li>
-                                        <li><i>Top-level Code</i> execute only as they are encountered.</li>
-                                        <li><i>Inline Scripts</i>Put value on the event attribute (e.g,on click)</li>
-                                        <li> &lt;no script&gt; &lt;/no script&gt; </li>
-                                        is an alternative content when browser has no default javascript.
+      <img src="../images/jx.png">
+      <h2>JavaScript</h2>
+      <div>
+        <p> JavaScript is the programming language of HTML and the Web,developed by Netscape Communications Corportion, Mozilla Foundation,Ecma International.It is a multi-paradigm,object oriented,imperative,functional language and mostly considered as high-level
+          interpreted programming language.It is commonly used in making dyamic webpages interactive.
+          <p> Javascript is only implemented in client-side in web browser.Client-side code run in browser after page is sent back from server often this code manipultes the page or response to user actions.
+            <p>Sources of JavaScript
+              <ul>
+                <li>External JavaScript a.k.a Linked</li>
+                <p>External JavaScript separates HTML and JavaSciprt code that it makes the developer in easier to read and maintai</p> <img src="../images/js1.png"> <img src="../images/js2.jpg">
+                <li>Embedded a.k.a Internal</li> Embedded does'nt separate the HTML and JavaScript code,it is embedded on the JavaScript file.See example below: <img src="../images/js3.png">
+              </ul>
+              <p>Note:
+                <ul>
+                  <li>The execution of linked scripts can be deferres or run.</li>
+                  <li>Link scripts can be defer or async</li>
+                  <li><i>Async</i> fetch while waitingn for loading and compile ifthe page is available</li>
+                  <li><i>Top-level Code</i> execute only as they are encountered.</li>
+                  <li><i>Inline Scripts</i>Put value on the event attribute (e.g,on click)</li>
+                  <li> &lt;no script&gt; &lt;/no script&gt; </li>
+                  is an alternative content when browser has no default javascript.
 
-                            </ul>
-                            
-                            <h2>JavaScript Datatypes</h2> 
-                            The set of data types is the most fundamental characteristics of a programming languages.
-                            
-                               <ul>
-                                        <li>Numbers</li> <img src="../images/num.png">
-                                        <li>Strings</li>
-                                        <p>single quoted,double-qouted delimeted <img src="../images/var1.png">
-                                 </ul>
-                            <h2>JavaScript Variables</h2> 
-                            JavaScript uses the var keyword to declare variables and an equal sign is used to assign values to variables.
-                                     <img src=".../images/var.png">
-                             
-                            <h2>JavaScript Operators</h2>
-                             Uses arithmetic operators ( + - * / ) to compute values:
-                             
-                               <img src=".../images/ope.png">
-                            <h2> JavaScript Reserved Words</h2>
-                            
-                            
-                            <ul>
-                                            <li> abstract else instanceof switch </li>
-                                            <li> boolean enum int synchronized</li>
-                                            <li> break export interface this</li>
-                                            <li> byte extends long throw</li>
-                                            <li> case false native throws</li>
-                                            <li> catch final new transient</li>
-                                <ul>
-                                    <p> Browser Object Model It is a browser-specific convention that talks about all the objects contained by the web browser.BOM has no standard for implementation. - Window, Navigator,Screen,Location,History -window.navigator,window.screen <img src="../win.png"> As stated on W3C Recommendation:With the object model, JavaScript gets all the power it needs to create dynamic HTML:
-                                        <ul>
-                                            <li>According to W3C Recommendation, JavaScript can change all the HTML elements in the page</li>
-                                            <li>According to W3C Recommendation,JavaScript can change all the HTML attributes in the page</li>
-                                            <li> According to W3C Recommendation,JavaScript can change all the CSS styles in the page</li>
-                                            <li>According to W3C Recommendation,JavaScript can remove existing HTML elements and attributes</li>
-                                            <li>According to W3C Recommendation,JavaScript can add new HTML elements and attributes</li>
-                                            <li>According to W3C Recommendation,JavaScript can react to all existing HTML events in the page</li>
-                                            <li>According to W3C Recommendation,JavaScript can create new HTML events in the page</li>
-                                        </ul>
-                        <p>Document Object Model As defined on the W3C Recommendation,Document Object Model (DOM) is an application programming interface (API) for valid HTML and well-formed XML documents. It interacts with the document within the script.When a page is loaded,the DOM is created on the page. DOM actually allows to the HTML document from within scripts.
-                         </div>
-        <footer> Baguio City, Philippines 2600, (+65)977-826-4922 © Webtechnology Copyright 2018 </footer>
-    </body>
+                </ul>
+
+                <h2>JavaScript Datatypes</h2> The set of data types is the most fundamental characteristics of a programming languages.
+
+                <ul>
+                  <li>Numbers</li> <img src="../images/num.png">
+                  <li>Strings</li>
+                  <p>single quoted,double-qouted delimeted <img src="../images/var1.png">
+                </ul>
+                <h2>JavaScript Variables</h2> JavaScript uses the var keyword to declare variables and an equal sign is used to assign values to variables.
+                <img src=".../images/var.png">
+
+                <h2>JavaScript Operators</h2> Uses arithmetic operators ( + - * / ) to compute values:
+
+                <img src=".../images/ope.png">
+                <h2> JavaScript Reserved Words</h2>
+
+
+                <ul>
+                  <li> abstract else instanceof switch </li>
+                  <li> boolean enum int synchronized</li>
+                  <li> break export interface this</li>
+                  <li> byte extends long throw</li>
+                  <li> case false native throws</li>
+                  <li> catch final new transient</li>
+                  <ul>
+                    <p> Browser Object Model It is a browser-specific convention that talks about all the objects contained by the web browser.BOM has no standard for implementation. - Window, Navigator,Screen,Location,History -window.navigator,window.screen
+                      <img src="../win.png"> As stated on W3C Recommendation:With the object model, JavaScript gets all the power it needs to create dynamic HTML:
+                      <ul>
+                        <li>According to W3C Recommendation, JavaScript can change all the HTML elements in the page</li>
+                        <li>According to W3C Recommendation,JavaScript can change all the HTML attributes in the page</li>
+                        <li> According to W3C Recommendation,JavaScript can change all the CSS styles in the page</li>
+                        <li>According to W3C Recommendation,JavaScript can remove existing HTML elements and attributes</li>
+                        <li>According to W3C Recommendation,JavaScript can add new HTML elements and attributes</li>
+                        <li>According to W3C Recommendation,JavaScript can react to all existing HTML events in the page</li>
+                        <li>According to W3C Recommendation,JavaScript can create new HTML events in the page</li>
+                      </ul>
+                      <p>Document Object Model As defined on the W3C Recommendation,Document Object Model (DOM) is an application programming interface (API) for valid HTML and well-formed XML documents. It interacts with the document within the script.When
+                        a page is loaded,the DOM is created on the page. DOM actually allows to the HTML document from within scripts.
+      </div>
+  </main>
+  <footer>Baguio City, Philippines 2600, (+63)977-826-4922 © Webtechnology Copyright 2018</footer>
+  </div>
+  </body>
 
 </html>
