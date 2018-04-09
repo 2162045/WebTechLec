@@ -165,3 +165,16 @@ main div h2.CSSP {
   padding-top: 100px;
   margin-top: 100px;
 }
+
+footer {
+  font-family: 'Waukegan';
+  position: fixed;
+  color: #7f8c8d;
+  background: #111;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 12;
+  line-height: 40px;
+}
