@@ -16,13 +16,18 @@
        <div>
        		Servlet Lifecycle
        		instantiation
-       		initialization
+            <p>constructor call - creates an instance of the servlet of service client requests.</p>
+       		initialization  
+            <p>init method - invoked only once and is intended for any startup initialization code for the servlet.</p>
        		request handling
+            <p>service method - servlet performs whatever logic necessary in order to serve the request and generate  response.</p>
        		destination
        		destruction(house cleaning)
+            <p>destroy method - invoked before the servlet instanceis unloaded.</p>
        </div>
        	<div>
        		HTTP Servlet container (Web container)
+            <p>Java servlet that is used to handle HTTP requests and HTTP responses. This is hosted in a web container.</p>
        		Java Application Server
        		JVM
 
