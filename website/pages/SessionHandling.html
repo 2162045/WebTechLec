@@ -15,11 +15,11 @@
 		<main>
 			<h2>Session Handling</h2>
 				<div>
-					A <em>session</em> can be defined as the communication between two people. In web application session is the communication between the users and the servers in the form of the request and respond. It is a sequence of network HTTP request trnsaction associated with one user.
+					A <em>session</em> can be defined as the communication between two people. In web application session is the communication between the users and the servers in the form of the request and respond. It is a sequence of network HTTP request transaction associated with one user.
 				</div>
 
 				<div>
-					Sessions is a way of storing data for individual users contrary to a unique session ID.
+					Sessions is a way of storing data for individual users contrary to a unique session ID. You can also invalidate the session by calling the session.invalidate() method
 				</div>
 				
 				<br> 
@@ -33,20 +33,31 @@
 				</div>
 
 			<h3>HTTP Session</h3>
-				methods??
-				set
-				response
-				cookie??
+                are used for managing sessions. Sessions was determined by a specific and unique ID stored in a cookies given by the server to a specific user. When a new user visits a site he/she was given an ID to determine his/her unique session it was obtained via <b>request.getSession()</b>  method. A HTTPSession works out until it reach its timeout. <br><br>
+            
+            This is how to create a HTTPSession object
+                    <center><img src="hs.png" width="500px" height="400px"> </center>
+            
+   
+            
+        
+            <h2>Methods of HttpSession</h2>
 
+            <h3>public void setAttribute(String name, Object value):</h3>
+            can be used in storing user information into the session objects and can also used in fetching information into a session.
+            
+            
+            <h3>public Object getAttribute(String name):</h3> Returns null if no object was found in the specific attribute. String object specified in the parameter, from the session object.
+            
+            <h3>public Enumeration getAttributeNames():</h3>
+             Returns an Enumeration that contains the name of all the objects that are bound as attributes to the session object.
+            
+            <h3>public void removeAttribute(String name):</h3>
+             Given attribute from session can be removed.
 
-				
-			<h3>History</h3>
-			
-				handles the isers request
-				Applications keep tracks the sessions
-
-			History
-			Importance
+            <h3>setMaxInactiveInterval(int interval):</h3>
+            Sets the time of activeness of the session after the last request received from the client.
+            
 
 			<h3>Session ID</h3>
 				<ul>
@@ -54,12 +65,58 @@
 					<li>Hidden from fields</li>
 					<li>Cookie Based</li>
 				</ul>
-			<h3>Cookies</h3>
+			
+            
+            <h3>Cookies</h3>
+                are also used in session management. It is stored in the users browser and sends back to the server if needed. It is a small piece of information that has a name, a single value and some attributes. Its life span depends on how long the users browser is running and by the time the users browser is closed all cookies will be destroyed. And when the user open the browser againit sends request to the server, and a new session is being created.
+            
+            <h3>There are two Types of Cookies</h3>
+            <h4>Session Cookies</h4>
+                <p>It lives in the user browsers memory and when the user browser is closed the cookies gets destroyed. </p>
+            <h4>Persistent Cookies</h4>
+                <p>It is destroyed based on its expiration date and it was stored in the users hard drive.</p>
+            
+            <h3>Sending Cookies to client</h3>
+            <ol>
+                <li>Create a Cookie object</li>
+                <center><img src="c.png" width="500px" height="400px"> </center>
+                <li>Set the maximum Age</li>
+                <center><img src="cc.png" width="500px" height="400px"> </center>
+                <li>Place the Cookie in HTTP response header</li>
+                <center><img src="ccc.png" width="500px" height="400px"> </center>
+            </ol>
+                
+                Disadvantage of using a cookies in session handling.
+                    Using cookies in session tracking is a bad practice because of the following:
+                <ol>
+                    <li>it will not availablle if ever the clients browser was cleared or disabled yhe cookies.</li>
+                    <li>It is more difficult to implement cookies for session tracking than other session management mechanism.</li>
+                    <li>It only wooks for HTTP protocol.</li>    
+            </ol>
+				
+            
+            <h3>Methods of Cookie class</h3>
+            <h2>public void setComment(String purpose):</h2>
+            This methods allows you to setup a comment in the cookies and describe the purpose of the cookie.
+            
+            <h2>public String getComment():</h2>
+            Returns the comment you've placed in the setComment() method.
+            
+            <h2>public void setMaxAge(int expiry):</h2>
+             Sets the cookies maximum age in seconds.
 
-				<div>
-					<h4>Response Header</h4>
-					Set Cookie:
-				</div>
+            <h2> public int getMaxAge():</h2>
+            Gets the Cookies maximum age in seconds,
+            By default, -1 is returned, which indicates that the cookie will persist until browser shutdown.
+
+            <h2>public String getName():</h2>
+             Returns the name of the cookie. The name cannot be changed after creation.
+
+            <h2>public void setValue(String newValue):</h2>
+             Assigning new value to the Cookie.
+
+            <h2>public String getValue():</h2>
+             Gets the current value of the Cookie.
 				
 
 
