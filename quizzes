@@ -38,3 +38,46 @@ a.arithmetic operators
 b.comparison operators
 c.mathematical operation
 d.logical operators
+
+
+
+NODE JS
+
+CHOOSE THE BEST Answer
+
+1 info from the readme, or an empty string "" (answer a)
+a.description
+b.version
+c.bugs
+d.homepage
+e.main
+
+
+2. always 1.0.0 (answer b)
+a.description
+b.version
+c.bugs
+d.homepage
+e.main
+
+
+3.  info from the current directory, if present (answer d)
+a.description
+b.version
+c.bugs
+d.homepage
+e.main
+
+4.  info from the current directory, if present (answer c)
+a.description
+b.version
+c.bugs
+d.homepage
+e.main
+
+5.always the index.js (answer e)
+a.description
+b.version
+c.bugs
+d.homepage
+e.main
