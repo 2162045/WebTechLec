@@ -2,8 +2,36 @@ php
 node js
 serversideweb scripting
 
+Php is a ________ language (answer c)
+a. English language
+b.programming language
+c. Scripting language
+d. French language
+
+it is  used if you are explaning your script i=on a sngle line(answer b)
+a.single-line printing
+b.single-line comment
+c.Multi-line printing
+d.Multi-line comments
+
+it  prints lines in a single print statement (ans c)
+a.single-line printing
+b.single-line comment
+c.Multi-line printing
+d.Multi-line comments
 
 
+are comments that more dtailed explanations about yor script(ans d)
+a.single-line printing
+b.single-line comment
+c.Multi-line printing
+d.Multi-line comments
+
+It is similar to when you program in C language. (ans d)
+a.single-line printing
+b.single-line comment
+c.Multi-line printing
+d.Multi-line comments
 
 PHP add one out
 
@@ -11,7 +39,7 @@ php syntax (answer d)
 a.<?...?>
 b.<?php...?>
 c.<%...%>
-d.<*...*>
+d.<*...*>)
 
 
 commenting php code (answer a)
@@ -38,6 +66,8 @@ a.arithmetic operators
 b.comparison operators
 c.mathematical operation
 d.logical operators
+
+
 
 
 
