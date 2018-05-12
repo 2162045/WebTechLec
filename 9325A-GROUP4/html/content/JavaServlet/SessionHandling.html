@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Session Handling in Servlet</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"> </head>
+
+<body>
+    <header>
+        <a href="../index.html"> <img class="logo" src="../images/ourlogo.png" alt="My Logo"> </a>
+        <input id="menu" type="checkbox" />
+        <label for="menu"> <span></span> <span></span> <span></span> </label>
+        <nav style="background-color: #3F51B5">
+            <ul>
+                <li> <a href="../index.html">HOME</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="nav-container">
+        <div class="nav-bar"><a href="servlets.html">Servlets - Overview</a></div>
+        <div class="nav-bar"><a href="javaservelets.html">Java Servlets</a> </div>
+        <div class="nav-bar"><a href="lifecycle.html">Servlet Life Cycle</a></div>
+        <div class="nav-bar"><a href="environmentsetup.html">Environment Setup</a></div>
+        <div class="nav-bar"><a href="httpservlet.html">HTTP Servlet</a></div>
+        <div class="nav-bar"><a href="interfaceservlet.html">Interfaces of Servlet</a></div>
+        <div class="nav-bar"><a href="SessionHandling.html">Session Handling</a> </div>
+        <div class="nav-bar"> <a href="references.html">References</a> </div>
+    </div>
+    <div id="content">
+        <h2>Session Handling</h2>
+        <p>A <em>session</em> can be defined as the communication between two people. In web application session is the communication between the users and the servers in the form of the request and respond. It is a sequence of network HTTP request transaction associated with one user.</p>
+        <p>Sessions is a way of storing data for individual users contrary to a unique session ID. You can also invalidate the session by calling the session.invalidate() method.Many of us now uses internet and visits websites. According to <b>Internet World Stats</b> over <b>7,634,758,428</b> population of the world <b>4,156,932,140</b> uses internet as of <em>December 2017</em> and it is possible that there will be a traffic in accessing the site if many users will access one website at the same time. And to handle that situation <em>Web Servers</em> uses <b>Session Handling</b> to handle every request of the users.</p>
+        <h3>HTTP Session</h3>
+        <p> are used for managing sessions. Sessions was determined by a specific and unique ID stored in a cookies given by the server to a specific user. When a new user visits a site he/she was given an ID to determine his/her unique session it was obtained via <b>request.getSession()</b> method. A HTTPSession works out until it reach its timeout. </p> This is how to create a HTTPSession object.(See the figure below)
+        <br>
+        <p> <img src="../images/sh.PNG"></p>
+        <br>
+        <br>
+        <h3>Methods of HttpSession</h3>
+        <ul>
+            <li>public void setAttribute(String name, Object value): can be used in storing user information into the session objects and can also used in fetching information into a session. </li>
+            <li>public Object getAttribute(String name):Returns null if no object was found in the specific attribute. String object specified in the parameter, from the session object</li>
+            <li>public Enumeration getAttributeNames(): Returns an Enumeration that contains the name of all the objects that are bound as attributes to the session object.</li>
+            <li>public void removeAttribute(String name): Given attribute from session can be removed. </li>
+            <li>setMaxInactiveInterval(int interval): Sets the time of activeness of the session after the last request received from the client. </li>
+        </ul>
+        <h3>Session ID</h3>
+        <ul>
+            <li>Embedded</li>
+            <li>Hidden from fields</li>
+            <li>Cookie Based</li>
+        </ul>
+        <div class=" container ">
+            <ul class="pager ">
+                <li><a href="httpservlet.html">Previous</a></li>
+                <li><a href="SessionHandling2.html ">Next</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PHP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"> <img class="logo" src="../images/ourlogo.png" alt="My Logo"> </a>
+        <input id="menu" type="checkbox" />
+        <label for="menu"> <span></span> <span></span> <span></span> </label>
+        <nav style="background-color: #3F51B5">
+            <ul>
+                <li> <a href="../index.html">HOME</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="nav-container">
+        <div class="nav-bar"><a href="history.html">History</a></div>
+        <div class="nav-bar"><a href="syntax.html">PHP Syntax Overview</a></div>
+        <div class="nav-bar"><a href="variables.html">Variable Types and Constants</a></div>
+        <div class="nav-bar"><a href="operator.html">Operator Types and Loop Types</a></div>
+        <div class="nav-bar"><a href="functions.html">Functions</a></div>
+        <div class="nav-bar"><a href="references.html">References</a></div>
+        <div class="nav-bar"><a href="quiz.html">Quiz</a></div>
+    </div>
+    <div id="content">
+        <h2>PHP Syntax Overview</h2>
+        <h3>Escaping PHP</h3>
+        <li>Canonical PHP Tags</li>
+        <br/> <img src="../images/syntax.PNG">
+        <p>The photo above shows the universally PHP tag that is usually used.</p>
+        <li>Short-open tags (SGML-style)</li>
+        <br/> <img src="../images/syntax1.PNG">
+        <p>For PHP to be familiar with the tags you use, you must either use two of the following: (a) Look for --enable-short-tags configuration when building PHP or (b) Go to your php.inl file and turn on the short_open_tag</p>
+        <li>ASP-style tags</li>
+        <br/> <img src="../images/syntax2.PNG">
+        <p>ASP tags are used to delineate code blocks. Set the configuration of the ASP tags when you open php.inl </p>
+        <li>HTML script tags</li>
+        <br/> <img src="../images/syntax3.PNG">
+        <h2>Commenting PHP Code</h2>
+        <li>Single-line comments</li>
+        <p>Single-line comments are used if you are explaning your script i=on a sngle line. Sysmbols used to define a single-line commen are: (a) # and (b) //.</p>
+        <li>Multi-line printing</li>
+        <p>Muti-lines printing are comments that prints lines in a single print statement</p>
+        <li>Multi-line comments</li>
+        <p>These are comments that more dtailed explanations about yor script. Multi-line comment in PHP is similar to when you program in C language.</p>
+        <h2>WHITESPACE insensitive</h2>
+        <p>PHP whitespace almost never matters to how many whitespaces character you have in a row.</p>
+    </div>
+    <div class="container">
+        <ul class="pager">
+            <li><a href="history.html">Previous</a></li>
+            <li><a href="variables.html">Next</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

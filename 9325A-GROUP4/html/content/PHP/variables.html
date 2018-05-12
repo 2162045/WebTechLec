@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PHP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html"> <img class="logo" src="../images/ourlogo.png" alt="My Logo"> </a>
+        <input id="menu" type="checkbox" />
+        <label for="menu"> <span></span> <span></span> <span></span> </label>
+        <nav style="background-color: #3F51B5">
+            <ul>
+                <li> <a href="../index.html">HOME</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="nav-container">
+        <div class="nav-bar"><a href="history.html">History</a></div>
+        <div class="nav-bar"><a href="syntax.html">PHP Syntax Overview</a></div>
+        <div class="nav-bar"><a href="variables.html">Variable Types and Constants</a></div>
+        <div class="nav-bar"><a href="operator.html">Operator Types and Loop Types</a></div>
+        <div class="nav-bar"><a href="functions.html">Functions</a></div>
+        <div class="nav-bar"><a href="references.html">References</a></div>
+        <div class="nav-bar"><a href="quiz.html">Quiz</a></div>
+    </div>
+    <div id="content">
+        <h2>PHP Variable Types</h2>
+        <p>Variables in PHP are in Perl-like struecture which always start with the dollar sign ($). It can be declared even before assigning a value to it. Overall, PHP has eight variable types, namely:</p>
+        <li>
+            <h3>Integers</h3></li>
+        <p>Integers are the simplest type of variable. They are whole numbers, both positive and negative. The way to declare an Interger variable is seen below:</p>
+        <br/> <img src="../images/variable.PNG">
+        <p>Integers may be in different formats (i.e. decimals, octals, hexadecimals).</p>
+        <li>
+            <h3>Doubles</h3></li>
+        <p>Doubles print minmal number of decimal places by default.</p>
+        <li>
+            <h3>Boolean</h3></li>
+        <p>Bolean has only two values to return, TRUE or FALSE.</p>
+        <h3>Interpreting types of Boolean</h3>
+        <p>Listed below are rules to determine the "truth" of boolean types:</p>
+        <ul>
+            <li>If the value is a number that is equivalent to zero, it is returned false. Otherwise, it will return true.</li>
+            <li>Null values are alwys false.</li>
+            <li>Never use double as Booleans</li>
+        </ul>
+        <li>
+            <h3>Strings</h3></li>
+        <p>Strings are seqquence of characters. They are delimited with double quotes. Strings are preprocessed two ways, characters beginning with a backslash are sustituted with special characters; and Variables that start with the dollar sign are substituted with string representation of their values.</p>
+        <li>
+            <h3>PHP Local Variables</h3></li>
+        <p>PHP local variables are variables that aredeclared inside a function. </p>
+        <br/> <img src="../images/variable1.PNG"> <img src="../images/variable2.PNG">
+        <p>The following code will give this result:</p>
+        <br/> <img src="../images/variable3.PNG">
+        <li>
+            <h3>PHP Global Variables</h3></li>
+        <p>Global variables are variables that are accessed in any part of the code. However, this kind of variable can only be accessed by placing a keyword 'GLOBAL' before the variable itself. Consider the example below:</p>
+        <br/> <img src="../images/variable4.PNG">
+        <p>This code will then result to the answer: "Somevar is 16".</p>
+        <li>
+            <h2>PHP Static Variables</h2></li>
+        <p>The last type of variable is Static Variables. Static Variables won't change even if the function exits and will still have the value if the function will be called again.</p>
+        <h1>PHP Constants</h1>
+        <p>PHP constants is simply the identifier of a certain value. By default, constant are case sensitive. It starts with either a letter or an underscore, followed by numbers, letters.</p>
+        <p>To define a constant, you must use "define()" function. It doesn't require you to use the dollar sign unlike other variables.</p>
+        <h3>PHP Magic Constants</h3>
+        <p>PHP gives predefined constants to any script. Below is a list pf PHP constants.</p> <img src="../images/variable5.PNG"> </div>
+    <div class="container">
+        <ul class="pager">
+            <li><a href="syntax.html">Previous</a></li>
+            <li><a href="operator.html">Next</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Web Application Security Risk</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"> </head>
+
+<body>
+    <div class="nav-container">
+        <div class="nav-bar"><a href="intro.html">Web Application Security Risk</a></div>
+        <div class="nav-bar"><a href="../WebApp/1.html">Injection</a> </div>
+        <div class="nav-bar"><a href="../WebApp/2.html">Broken Authentication</a></div>
+        <div class="nav-bar"><a href="../WebApp/3.html">Sensitive Data Exposure</a></div>
+        <div class="nav-bar"><a href="../WebApp/4.html">XML External Entities (XXE)</a></div>
+        <div class="nav-bar"><a href="../WebApp/5.html">Broken Access Control</a></div>
+        <div class="nav-bar"><a href="../WebApp/6.html">Security Misconfiguration</a> </div>
+        <div class="nav-bar"><a href="../WebApp/7.html">Cross-Site Scripting (XSS)</a> </div>
+        <div class="nav-bar"><a href="../WebApp/8.html">Insecure Deserialization</a> </div>
+        <div class="nav-bar"><a href="../WebApp/9.html">Using Components with Known Vulnerabilities</a> </div>
+        <div class="nav-bar"><a href="../WebApp/10.html">Insufficient Logging and Monitoring</a> </div>
+        <div class="nav-bar"><a href="../WebApp/references.html">References</a> </div>
+    </div>
+    <div id="content">
+        <h3><u>Sensitive Data Exposure</u></h3>
+        <p>Sensitive data exposure is a vulnerability that occurs whenever a web application does not properly protect sensitive information from being revealed to illegitimate users. In web applications created today, almost all contains sensitive data that requires stronger security, some examples are passwords, credit card information and personal information that pertains to a person and their property. When sensitive data exposure happens, attackers can easily exploit data such as passwords, bank account numbers to conduct cyber crimes. </p>
+        <p> Sensitive data exposure is uncommonly used for it is difficult to do as well as hard to detect, though giving off a significantly severe effect if executed by the attacker properly. An attacker works by detecting if a network accessed by a user through http has no encryption or security. The attacker can get into the network and perform a sniffing activity into the networks traffic, this attacker approach is also called as MITM - Man in the middle attack, through this, easily the attacker can access any data being sent through the network including the user’s credentials and any personal information available in the network.</p>
+        <h3>Ways to Mitigate</h3>
+        <ol>
+            <li>Encrypt the data being sent over the network and define the user accessibilities. Data without encryption gives attackers more opportunity. Determine sensitive data that should have more protection and define the user accessibility by using private keys for encryption.</li>
+            <li>Create secure passwords, that satisfies the requirements for the networks and applying algorithms such as hash algorithm created for passwords. and making sure to update the password every month. </li>
+            <li>Using the standard security technology such as SSL or TSL so interactions from the user, network and the web server remains confidential for this technologies apply encryption that makes sure of the privacy using http connection. </li>
+            <li>Periodically monitoring the security system updating the system for new and advanced technologies and changes in business process should be applied to identify new risks and potential threats.</li>
+        </ol>
+        <h3>Example Scenario</h3>
+        <p>An attacker or a man in the middle can simply access a website that does not make use of TSL or SSL. They can monitor the network traffic openly in a wireless network and have the opportunity easily access and take the user’s session cookie that is currently accessing the contents of the web application unknowingly. After taking the user’s session cookie, the attacker can exploit this information and make use of this to take over the user’s current session and access his or her’s private data. </p>
+        <br>
+        <br> </div>
+    <div class="container">
+        <ul class="pager">
+            <li><a href="2.html">Previous</a></li>
+            <li><a href="4.html">Next</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
