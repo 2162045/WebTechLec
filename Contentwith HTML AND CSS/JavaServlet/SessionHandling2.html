@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Session Handling in Servlet</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css"> </head>
+
+<body>
+    <div class="nav-container">
+        <div class="nav-bar"><a href="servlets.html">Servlets - Overview</a></div>
+        <div class="nav-bar"><a href="javaservelets.html">Java Servlets</a> </div>
+        <div class="nav-bar"><a href="lifecycle.html">Servlet Life Cycle</a></div>
+        <div class="nav-bar"><a href="environmentsetup.html">Environment Setup</a></div>
+        <div class="nav-bar"><a href="httpservlet.html">HTTP Servlet</a></div>
+        <div class="nav-bar"><a href="interfaceservlet.html">Interfaces of Servlet</a></div>
+        <div class="nav-bar"><a href="SessionHandling.html">Session Handling</a> </div>
+        <div class="nav-bar"> <a href="references.html">References</a> </div>
+    </div>
+    <div id="content">
+        <h2>Session Cookies</h2>
+        <h3>Cookies</h3>
+        <p>It is also used in session management. It is stored in the users browser and sends back to the server if needed. It is a small piece of information that has a name, a single value and some attributes. Its life span depends on how long the users browser is running and by the time the users browser is closed all cookies will be destroyed. And when the user open the browser againit sends request to the server, and a new session is being created.
+            <h3>There are two Types of Cookies</h3>
+            <ol>
+                <li>Session Cookies</li>
+                <p>It lives in the user browsers memory and when the user browser is closed the cookies gets destroyed. </p>
+                <h4>Persistent Cookies</h4>
+                <li>Persistent Cookies</li>
+                <p>It is destroyed based on its expiration date and it was stored in the users hard drive.</p>
+                <h3>Sending Cookies to client</h3> </ol>
+            <h3>Sending a Cookie</h3>
+            <ol>
+                <li>Create a Cookie object</li> <img src="../images/c.png">
+                <br>
+                <li>Set the maximum Age</li> <img src="../images/cc.png">
+                <br>
+                <li>Place the Cookie in HTTP response header</li> <img src="../images/ccc.png"> </ol>
+            <p> Disadvantage of using a cookies in session handling. Using cookies in session tracking is a bad practice because of the following:</p>
+            <ol>
+                <li>It will not availablle if ever the clients browser was cleared or disabled yhe cookies.</li>
+                <li>It is more difficult to implement cookies for session tracking than other session management mechanism.</li>
+                <li>It only wooks for HTTP protocol.</li>
+            </ol>
+            <h3>Methods of Cookie class</h3>
+            <ol>
+                <li>public void setComment(String purpose):
+                    <p>This methods allows you to setup a comment in the cookies and describe the purpose of the cookie.</p>
+                    <li> public String getComment():</li>
+                    <p>Returns the comment you've placed in the setComment() method.</p>
+                    <li>public void setMaxAge(int expiry):</li>
+                    <p>Sets the cookies maximum age in seconds.</p>
+                    <li>public int getMaxAge():</li>
+                    <p>Gets the Cookies maximum age in seconds, By default, -1 is returned, which indicates that the cookie will persist until browser shutdown.</p>
+                    <li> public String getName():</li>
+                    <p>Returns the name of the cookie. The name cannot be changed after creation.</p>
+                    <li>public void setValue(String newValue):</li>
+                    <p> Assigning new value to the Cookie.</p>
+                    <li>public String getValue():</li>
+                    <p>Gets the current value of the Cookie.</p>
+            </ol>
+    </div>
+    <div class="container">
+        <ul class="pager">
+            <li><a href="SessionHandling.html">Previous</a></li>
+            <li><a href="references.html">Next</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Web Application Security Risk</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css"> </head>
+<div class="nav-container">
+    <div class="nav-bar"><a href="intro.html">Web Application Security Risk</a></div>
+    <div class="nav-bar"> <a href="1.html">Injection</a> </div>
+    <div class="nav-bar"><a href="2.html">Broken Authentication</a></div>
+    <div class="nav-bar"><a href="3.html">Sensitive Data Exposure</a></div>
+    <div class="nav-bar"><a href="4.html">XML External Entities (XXE)</a></div>
+    <div class="nav-bar"><a href="5.html">Broken Access Control</a></div>
+    <div class="nav-bar"><a href="6.html">Security Misconfiguration</a> </div>
+    <div class="nav-bar"><a href="7.html">Cross-Site Scripting (XSS)</a> </div>
+    <div class="nav-bar"><a href="8.html">Insecure Deserialization</a> </div>
+    <div class="nav-bar"><a href="9.html">Using Components with Known Vulnerabilities</a> </div>
+    <div class="nav-bar"><a href="10.html">Insufficient Logging and Monitoring</a> </div>
+    <div class="nav-bar"> <a href="references.html">References</a> </div>
+</div>
+
+<body>
+    <div id="content">
+        <h3><u>Broken Authentication></u></h3>
+        <p>We need to have authentication to keep our privacy intact. Security plays a major role, especially nowadays. Broken Authentication is a type of vulnerability that gives attackers a way for them to bypass any unauthorized access of, for example, an account. Applications usually require a user to login into their own accounts. Non-technical people would think that they are safe from “attacks”. .</p>
+        <h3> Minimizing the risk/ best practices/ remedy
+</h3>
+        <ol>
+            <li> Generated Session ID’s must have a unique and random value </li>
+            <li> Encryption of sensitive data and securing connections to block any interception between the user and the application</li>
+            <li> Users must provide passwords that contain alphanumeric characters to prevent attackers from easily obtaining the users password</li>
+            <li> When a user has logged out of his/her account the web application must invalidate the session id so that the attacker that has the session id cannot use it </li>
+            <li> Session ID’s should not be visible inside the URL of the browser </li>
+        </ol>
+        <h3>Example</h3>
+        <ol>
+            <li>A student went to a computer shop and visited every single social media site he has. He was having a great time until he realizes that it was 5 minutes before his next class starts. Scared of having his class card dropped, he closed his browser without logging out his social media accounts. An hour later, another person rented the same PC, opened the browser and had seen the social media accounts of the student. Hopefully that this random person is good to logout all of the accounts.</li>
+            <li>An example scenario of this is when a website’s URL contains the session ID (http://www.sample.com/accounts?admin=0). A website URL is visible to anyone, thus this imposes a vulnerability because anyone can manipulate the URL and use it to access different IDs. </li>
+        </ol>
+    </div>
+    <div class="container">
+        <ul class="pager">
+            <li><a href="1.html">Previous</a></li>
+            <li><a href="3.html">Next</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

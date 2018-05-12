@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Java Servlets </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css"> </head>
+
+<body>
+    <div class="nav-container">
+        <div class="nav-bar"><a href="servlets.html">Servlets - Overview</a></div>
+        <div class="nav-bar"><a href="javaservelets.html">Java Servlets</a> </div>
+        <div class="nav-bar"><a href="lifecycle.html">Servlet Life Cycle</a></div>
+        <div class="nav-bar"><a href="environmentsetup.html">Environment Setup </a></div>
+        <div class="nav-bar"><a href="httpservlet.html">HTTP Servlet</a></div>
+        <div class="nav-bar"><a href="interfaceservlet.html">Interfaces of Servlet</a></div>
+        <div class="nav-bar"><a href="SessionHandling.html">Session Handling</a> </div>
+        <div class="nav-bar"> <a href="references.html">References</a> </div>
+    </div>
+    <div id="content">
+        <h2>HTTP Servlet</h2>
+        <p> Java Servlet use to handle HTTP request and generate HTTP response. It is hosted in ‘web-container’ which is component in Java ‘application-server’. Application server like WildFly, GlassFish, Apache Tomcat, IBM WebSphere and more.
+            <br> What happens on the Request handling on the third phase of the servlets life cycle. The service() method call is routed to a d0XXX() call, depending on the HTTP request method , e.g. doGet(), doPost(), doHead(), doPut(), doDelete(). </p>
+        <table>
+            <tr>
+                <th> HTTP REQUEST METHOD </th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>doGet ()</td>
+                <td>if the servlet supports HTTP GET requests</td>
+            </tr>
+            <tr>
+                <td>doPost()</td>
+                <td>for HTTP POST requests</td>
+            </tr>
+            <tr>
+                <td>doPut()</td>
+                <td>for HTTP PUT requests</td>
+            </tr>
+            <tr>
+                <td>doDelete()</td>
+                <td>for HTTP DELETE requests</td>
+            </tr>
+            <tr>
+                <td>Init()and destroy() method</td>
+                <td>to manage resources that are held for the life of the servlet</td>
+            </tr>
+            <tr>
+                <td>getServletInfo()</td>
+                <td>which the servlet uses to provide information about itself </td>
+            </tr>
+        </table>
+        <p> The doXXX() methods passed two arguments: the object representation of the HTTP request sent by the client and received by servlet. It is use to accessed information from the request message (e.g. HTTP request, request URI, query string, message readers, message payload).</p>
+    </div>
+    <div class="button">
+        <div class="container">
+            <ul class="pager">
+                <li><a href="environmentsetup.html">Previous</a></li>
+                <li><a href="SessionHandling.html">Next</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

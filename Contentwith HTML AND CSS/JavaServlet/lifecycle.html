@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Java Servlets </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css"> </head>
+
+<body>
+    <div class="nav-container">
+        <div class="nav-bar"><a href="servlets.html">Servlets - Overview</a></div>
+        <div class="nav-bar"><a href="javaservelets.html">Java Servlets</a> </div>
+        <div class="nav-bar"><a href="lifecycle.html">Servlet Life Cycle</a></div>
+        <div class="nav-bar"><a href="environmentsetup.html">Environment Setup </a></div>
+        <div class="nav-bar"><a href="httpservlet.html">HTTP Servlet</a></div>
+        <div class="nav-bar"><a href="interfaceservlet.html">Interfaces of Servlet</a></div>
+        <div class="nav-bar"><a href="SessionHandling.html">Session Handling</a> </div>
+        <div class="nav-bar"> <a href="references.html">References</a> </div>
+    </div>
+    <div id="content">
+        <h2>Servlet Life Cycle</h2>
+        <p>Servlet lifecycle describes how the servlet container manages the servlet object.</p>
+        <center><img src="../images/cycle2.png" width="500px" height="400px"> </center>
+        <p>When a client sends a request to a servlet-enabled server that invokes a server first checks to see of the servlet is loaded. If it is not, the servlet class is loaded and a new instance is created. And the cycle will start with the: </p>
+        <h5>First phase: Instantiation</h5>
+        <ul>
+            <li> ‘constructor all…’</li>
+            <li>Creates an instance of the servlet to service client request</li>
+            <li>Invoked implicitly by the servlet container when the servlet is called then it creates instance to create servlet.</li>
+        </ul>
+        <h5>
+Second phase: Initialization</h5>
+        <ul>
+            <li>‘init() method’ : This is called only once when the servlet is created. </li>
+            <li>Invoked once and is intended for any startup initialization code for the servlet</li>
+        </ul> <img src="../images/2phase.png" width="700px">
+        <h5>Third phase: Request Handling
+</h5>
+        <ul>
+            <li>‘service method’: It is called by the web container to handle request from client</li>
+            <li>Invoked repeatedly for every client request</li>
+            <li>Servlet performs whatever logic necessary in order to serve the request and response.</li>
+            <li>Multi-client request typically handled by single multi-threaded</li>
+            <li>Must have ‘thread safe’</li>
+        </ul>
+        <h5>Fourth phase: Destruction</h5>
+        <ul>
+            <li>‘destroy method’: It is used to clean resources and called before removing the servlet instance.</li>
+            <li> Invoked before the servlet instance is ‘unloaded’ and is intended for ‘housekeeping’.</li>
+        </ul> <img src="../images/4cycle.png" width="700px"> </div>
+</body>
+<div class="container">
+    <ul class="pager">
+        <li><a href="javaservelets.html">Previous</a></li>
+        <li><a href="environmentsetup.html">Next</a></li>
+    </ul>
+</div>>
+
+</html>

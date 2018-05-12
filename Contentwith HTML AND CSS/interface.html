@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css"> </head>
+
+<body>
+    <div class="nav-container">
+        <div class="nav-bar">
+            <a href="servlets.html"></a>
+        </div>
+        <div class="nav-bar">
+            <a href="javaservelets.html"></a>
+        </div>
+        <div class="nav-bar">
+            <a href="lifecycle.html"></a>
+        </div>
+        <div class="nav-bar">
+            <a href="environmentsetup.html"></a>
+        </div>
+        <div class="nav-bar">
+            <a href="httpservlet.html"></a>
+        </div>
+        <div class="nav-bar">
+            <a href="interfaceservlet.html"></a>
+        </div>
+        <div class="nav-bar">
+            <a href="SessionHandling.html"></a>
+        </div>
+        <div class="nav-bar">
+            <a href="references.html"></a>
+        </div>
+        <div id="content">
+            <h2>Interfaces of Servlet</h2>
+            <p> ServletRequest and HttpServletRequest
+                <br> The ServletRequest and HttpServletRequest classes hold all of the accessible information about the client and the server. HttpServletRequest is a subclass of ServletRequest and is passed to each servlet handler method (such as doGet(..), doPut(..), etc.). (David Reily, Michael Reily,2012)
+                <br> Example:
+                <br> getContentLength(), getContentType(),getServerName(),getAuthType(),getServletPath(),getMethod() </p>
+            <h3> ServletResponse and HttpResponse</h3>
+            <p>For servlets, the ServletResponse and its subclass HttpResponse are two of the most vital classes. These classes perform the function of sending the MIME-encoded data back to the client. Without this, there would be no servlets at all. This class supports both writers (for communicating text-based characters) and output streams (for sending back binary data), as well as enabling the setting of content length and type parameters. (David Reily, Michael Reily,2012)</p>
+            <p>Example:
+                <br> GetWriter, GetCharacterEncoding, SetContentType, AddCookie ,ContainsHeader ,SetHeader ,SetStatus Sets the HTTP status </p>
+        </div>
+        <div class="container">
+            <ul class="pager">
+                <li><a href="lifecycle.html">Previous</a></li>
+                <li><a href="servlets.html">Next</a></li>
+            </ul>
+        </div>
+</body>
+
+</html>
