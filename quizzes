@@ -1,0 +1,40 @@
+php
+node js
+serversideweb scripting
+
+
+
+
+PHP add one out
+
+php syntax (answer d)
+a.<?...?>
+b.<?php...?>
+c.<%...%>
+d.<*...*>
+
+
+commenting php code (answer a)
+a.single-line printing
+b.single-line comment
+c.Multi-line printing
+d.Multi-line comments
+
+
+php variables (answer b)
+a.integer
+b.decimal
+c.double
+d.boolean
+
+PHP magic constatnt (answer a)
+a._PHP_
+b._LINE_
+c._FILE_
+d._FUNCTION_
+
+PHP operators (answer c)
+a.arithmetic operators
+b.comparison operators
+c.mathematical operation
+d.logical operators
