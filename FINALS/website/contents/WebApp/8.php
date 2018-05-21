@@ -82,7 +82,10 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
     <div id="content">
         <h3>A8:2017-Insecure Deserialization</h3>
         <p>According to OWASP “Exploitation of deserialization is somewhat difficult, as off the shelf exploits rarely work without changes or tweaks to the underlying exploit code. ” It occurs when data is used to abuse the logic of an application and this data are untrusted one. To prevent this vulnerability you should know how to identify the possible holes of the website and how to resolves it. And rejects untrusted sources. </div>
+ 
+    </div>
     <div class="container">
+         <iframe width="854" height="480" src="https://www.youtube.com/embed/EzOquQNQAUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <ul class="pager">
             <li><a href="7.php">Previous</a></li>
             <li><a href="9.php">Next</a></li>

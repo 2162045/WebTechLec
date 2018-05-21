@@ -82,6 +82,7 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
     <div id="content">
         <h2>Web Application Security Risk</h2>
         <p>Web application attacks occur, identify common and obscure Web application attacks, including buffer overflows, SQL injection, cross-site scripting and distributed denial-of-service (DDoS) attacks.It is important to secure the website to protect the information or data's inside it. Attackers take a privilege to attack the website if the website has weak security.Perhaps, web application is useful in businesses and inother organizaion,like it is easier to maintain a proper communication channel between potential customers and the business organization.hese must be taken as serious problem because an attacker will be given a privilege to access the information that is encryptedOn this lesson,we will tuckle abut the 10 OWASP App Security Risk.The OWASP or the Open Web Application Security Project. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. </p>
+   <iframe width="854" height="480" src="https://www.youtube.com/embed/02mLrFVzIYU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
     <div class="container">
         <ul class="pager">

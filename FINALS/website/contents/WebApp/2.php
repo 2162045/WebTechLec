@@ -80,7 +80,7 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
         <div class="nav-bar"> <a href="references.php">References</a> </div>
     </div>
     <div id="content">
-        <h3><u>Broken Authentication></u></h3>
+        <h3><u>Broken Authentication</u></h3>
         <p>We need to have authentication to keep our privacy intact. Security plays a major role, especially nowadays. Broken Authentication is a type of vulnerability that gives attackers a way for them to bypass any unauthorized access of, for example, an account. Applications usually require a user to login into their own accounts. Non-technical people would think that they are safe from “attacks”. .</p>
         <h3> Minimizing the risk/ best practices/ remedy
 </h3>
@@ -96,6 +96,8 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
             <li>A student went to a computer shop and visited every single social media site he has. He was having a great time until he realizes that it was 5 minutes before his next class starts. Scared of having his class card dropped, he closed his browser without logging out his social media accounts. An hour later, another person rented the same PC, opened the browser and had seen the social media accounts of the student. Hopefully that this random person is good to logout all of the accounts.</li>
             <li>An example scenario of this is when a website’s URL contains the session ID (http://www.sample.com/accounts?admin=0). A website URL is visible to anyone, thus this imposes a vulnerability because anyone can manipulate the URL and use it to access different IDs. </li>
         </ol>
+
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/5ZLmRMLo6HI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
     <div class="container">
         <ul class="pager">

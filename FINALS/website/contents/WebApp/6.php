@@ -82,7 +82,10 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
     <div id="content">
         <h2>Security Misconfiguration</h2> According to OWASP “Attackers will often attempt to exploit unpatched flaws or access default accounts, unused pages, unprotected files and directories, etc to gain unauthorized access or knowledge of the system. ”
         <p>This occurs when the Security setting was defined, implemented, and retained as defaults. Attackers will easily exploits the website in this case. It can occur in any level of application stack. Automated scanners are very effective in detecting misconfigurations. And to prevent this attacks make sure to secure the installation process.</p>
+     <iframe width="854" height="480" src="https://www.youtube.com/embed/WQ4svQu0Rn8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
     </div>
+
     <div class="container">
         <ul class="pager">
             <li><a href="5.php">Previous</a></li>

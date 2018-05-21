@@ -83,6 +83,8 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
         <h3><h3><u>XML External Entities (XXE)</u></h3>
         <p>Many older or poorly configured XML processors evaluate external entity references within XML documents. External entities can be used to disclose internal files using the file URI handler, internal file shares, internal port scanning, remote code execution, and denial of service attacks.<i>(OWASP documentation)</i></p>
         </h3>
+
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/DJaX4HN2gwQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
     <div class="container">
         <ul class="pager">

@@ -90,6 +90,8 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
                 <li>An attacker uses scans for users using a common password. They can take over all accounts using this password. For all other users, this scan leaves only one false login behind. After some days, this may be repeated with a different password.</li>
                 <li>A major US retailer reportedly had an internal malware analysis sandbox analyzing attachments. The sandbox software had detected potentially unwanted software, but no one responded to this detection. The sandbox had been producing warnings for some time before the breach was detected due to fraudulent card transactions by an external bank.</li>
             </ul>
+
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/9eCMHYiarx0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             <ul class="pager">
                 <li><a href="9.php">Previous</a></li>
                 <li><a href="references.php">Next</a></li>

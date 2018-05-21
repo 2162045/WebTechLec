@@ -83,6 +83,8 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
         <h3><u>Broken Access Control</u></h3>
         <p>Restrictions on what authenticated users are allowed to do are often not properly enforced. Attackers can exploit these flaws to access unauthorized functionality and/or data, such as access other users' accounts, view sensitive files, modify other users' data, change access rights, etc.<i>(OWASP documentation)</i></p>
         <p></p>
+
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/P38at6Tp8Ms" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
     <div class="container">
         <ul class="pager">

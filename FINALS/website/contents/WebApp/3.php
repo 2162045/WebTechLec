@@ -93,7 +93,9 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
         <h3>Example Scenario</h3>
         <p>An attacker or a man in the middle can simply access a website that does not make use of TSL or SSL. They can monitor the network traffic openly in a wireless network and have the opportunity easily access and take the user’s session cookie that is currently accessing the contents of the web application unknowingly. After taking the user’s session cookie, the attacker can exploit this information and make use of this to take over the user’s current session and access his or her’s private data. </p>
         <br>
-        <br> </div>
+        <br>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/ZSmOsnOFWT0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+         </div>
     <div class="container">
         <ul class="pager">
             <li><a href="2.php">Previous</a></li>

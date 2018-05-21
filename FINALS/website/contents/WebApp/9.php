@@ -96,6 +96,9 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
         </ol>
         <h3>Actual Cases</h3>
         <p>The 'Heartbleed' blamed in attack on Canada tax agency.What happened is the Canada Revenue Agency a federal department was hit by a hacker exploiting the Heartbleed bug.The Canada Revenue Agency website is seen on a computer screen displaying information about an internet security vulnerability called the "Heartbleed Bug" in Toronto, April 9, 2014.The breach allowed hackers to extract social insurance numbers, which are used for employment and gaining access to government benefits. Canada Revenue Agency said.Andy Ellis, chief technology officer with Akamai Technologies Inc, said he was not surprised to hear about the attack on the Canadian agency because there are already several “tool kits” publicly available over the Internet that hackers can use to launch attacks on vulnerable websites.Specifically, Heartbleed affects open-source software called Open-SSL that’s at the very core of millions of applications used to encrypt Internet communications. </p>
+    
+<iframe width="854" height="480" src="https://www.youtube.com/embed/q7FuLs5fnEc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
     </div>
     <div class="container">
         <ul class="pager">
