@@ -1,0 +1,290 @@
+Servlets:
+
+1.) It is a Java programming class that is used for creating dynamic web applications.
+A. Servlets
+B. Session Handling
+C. CGI
+
+Answer: A
+
+2.) Who developed Servlets?
+A. Oracle
+B. Sun Microsystems
+C. SoftEQ
+
+Answer: B
+
+3.) The following are advantages of Servlets, except:
+A. Servlets are independent platforms.
+B. Servlet API inherits all features of the Java platform
+C. Writing complex business logic makes the application difficult to understand.
+D. It collects input from users through web page forms, present records from a database or another source, and create web pages dynamically.
+E. It saves the memory by removing the overhead of creating a new process for each request.
+
+Anwer: C
+
+4.) Known as servlet engine which manages Java Servlet components on top of a web server to the request send by the client.
+A. Servlet Container
+B. HTTP Servlet
+C. Java Servlet
+
+Answer: A
+
+5.) This is a server-side programming application that execute similar to CGI scripts,but without a separate process for each request.
+A. HTTP Servlet
+B. Java Servlet
+C. Session Handling
+
+Answer: B
+
+6.) This describes how the servlet container manages the servlet object.
+A. Servlet Containers
+B. HTTP Life Cycle
+C. Servlet Life Cycle
+
+Answer: C
+
+7.) This Creates an instance of the servlet to service client request.
+A. Instantiation
+B. Request Handling
+C. Initialization
+
+Answer: A
+
+8.) This phase let the servlets perform whatever logic necessary in order to serve the request and response.
+A. Initialization
+B. Request Handling
+C. Event Handling
+
+Answer: B
+
+9.) This method is used to clean resources.
+A. public void exit()
+B. public void terminate()
+C. public void destroy()
+
+Answer: C
+
+10.) It is hosted in ‘web-container’ which is component in Java ‘application-server’.
+A. HTTP Servlet
+B. Java Servlet
+C. Servlet
+
+Answer: A
+
+11.) This is an HTTP Request Method that is for HTTP POST Requests.
+A. getServletInfo()
+B. doPost()
+C. doPut()
+
+Answer: B
+
+12.) The following are examples of servlet handler method, except:
+A. getServerName()
+B. getServletPath()
+C. getNamingContent()
+D. getMethod()
+
+Answer: C
+
+13.) What is a session?
+A. Is the communication between the users and the servers in the form of the request and respond.
+B. Used in storing user information 
+C. Execute similar to CGI scripts.
+
+Answer: A
+
+14.) Are used for managing sessions.
+A. Java Sessions
+B. HTTP Sessions
+C. Event Sessions
+
+Answer: B
+
+15.)A method that returns an Enumeration that contains the name of all the objects that are bound as attributes to the session object.
+A. public void removeAttribute(String name)
+B. public Object getAttribute(String name)
+C. public Enumeration getAttributeNames()
+
+Answer: C
+
+
+
+PHP:
+
+1.) PHP was created by
+A. Lerdorf Rasmus
+B. Zeev Suraski
+C. Larry Ellison
+
+Answer: A
+
+2.) This version of PHP was released in Noovember 1997
+A. PHP/FI 3
+B. PHP/FI 2
+C. PHP 5
+
+Answer: B
+
+3.) This version included imporved with features like: supporting object-oriented programming.
+A. PHP 4
+B. PHP 2
+C. PHP 5
+
+Answer: C
+
+4.) Are used if you are explaining your script on a single line.
+A. Single-line comments
+B. Single comments
+C. Multi-line comments
+
+Answer: A
+
+5.) Are used to delineate code blocks.
+A. Canonical Tags
+B. ASP Tags
+C. Script Tags
+
+Answer: B
+
+6.) Are variables that are accessed in any part of the code.
+A. Datatypes
+B. Static Variables
+C. PHP Global Variables
+
+Answer: C
+
+7.) PHP gives predefined constants to any script. The following are PHP Magic Constants except:
+A. _FUNCTION_
+B. _FILE_
+C. _GET_
+D. _CLASS_
+
+Answer: C
+
+8.) This operator returns true if both variables are true.
+A. and
+B. or
+C. xor
+
+Answer: A
+
+10.) This character is used as the increment operator:
+A. ++
+B. +
+C. +-
+
+Answer: A
+
+11.) Comparison Operattors: (Select the best choices)
+A. ==
+B. =!
+C. >
+D. <=
+
+Answer: A, C, D
+
+
+
+Node.js
+
+1.) The package.json must have the follwing except:
+A. "name"
+B. "version"
+C. npm
+
+Answer: C
+
+2.) Is an open source server environment that runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.) and uses JavaScript on the server.
+A. Node.js
+B. JSON
+C. CLI
+
+Answer: A
+
+3.) Node.js files must be initiated in
+A. Java
+B. CLI
+C. Node.js
+
+Answer: B
+
+
+
+Web Application:
+
+1.) Ways to mitigate Injection:
+A. Source code review and automated testing are the most advised methods to prevent this kind of attack or threat.
+B. Install an application that checks the source code for malicious content before executing the code.
+C. Avoid relying on unknown or unreliable sources.
+D. Sources of Information or Data retrieved from unreliable sources should be checked by a application before running the command
+E. All of the above
+
+Answer: E
+
+2.) An example scenario of this is when a website’s URL contains the session ID (http://www.sample.com/accounts?admin=0). A website URL is visible to anyone, thus this imposes a vulnerability because anyone can manipulate the URL and use it to access different IDs. This is an example of:
+A. XML Entities
+B. Injection
+C. Broken Authentication
+
+Answer: C
+
+3.) Is a vulnerability that occurs whenever a web application does not properly protect sensitive information from being revealed to illegitimate users.
+A. Sensitive Data Exposure
+B. Broken Access Control
+C. Security Misconfiguration
+
+Answer: A
+
+4.) Ways to mitigate Sensitive Data Exposure:
+A. Encrypt the data being sent over the network and define the user accessibilities. 
+B. Using the standard security technology such as SSL or TSL so interactions from the user.
+C. Periodically monitoring the security system updating the system for new and advanced technologies and changes in business process should be applied to identify new risks and potential threats.
+D. Remove any components that you don't need in your website.
+
+Answer: A, B, C
+
+5.) An attacker uses scans for users using a common password. They can take over all accounts using this password. For all other users, this scan leaves only one false login behind. After some days, this may be repeated with a different password. This is an example of:
+A. Insecure Deserialization
+B. Security Misconfiguration
+C. Using Components with Known Vulnerabilities
+D. Insufficient Logging and Monitoring
+
+Answer: D
+
+6.) Restrictions on what authenticated users are allowed to do are often not properly enforced.
+A. Broken Access Control
+B. Cross-Site Scripting (XSS)
+C. Sensitive Data Exposure
+
+Answer: A
+
+7.) This occurs when the Security setting was defined, implemented, and retained as defaults. 
+A. Security Misconfiguration
+B. Injection
+C. Insecure Deserialization
+
+Answer: A
+
+8.) These are ways to minimize tthe risk in Cross-Site Scripting (XSS) except:
+A. Enable in the advance setting the basic cross site scripting protection
+B. Generated Session ID’s must have a unique and random value
+C. Always update the plugins to ensure the security.
+D. Remove any components that you don't need in your website.
+
+Answer: B, D
+
+9.) The adaptation of developer of a wide variety of third party components is now common place for most enterprise web sites to provide functionality.
+A. Insufficient Logging and Monitoring
+B. Using Components with Known Vulnerabilities
+C. Web Application Security Risk
+D. Insecure Deserialization
+
+Answer: B
+
+10.) is uncommonly used for it is difficult to do as well as hard to detect, though giving off a significantly severe effect if executed by the attacker properly.
+A. Insecure Deserialization
+B. Cross-Site Scripting (XSS)
+C. Sensitive Data Exposure
+
+Answer: C
