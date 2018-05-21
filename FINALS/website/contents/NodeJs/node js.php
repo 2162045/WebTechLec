@@ -77,6 +77,15 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
             Node.js uses JavaScript on the server,  runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.), free and an open source server environment.
         </p><br><br>
 
+        <h2>Node.js Features</h2>
+        <ul>
+            <li>Asynchronous and Event Driven </li>
+            <li>Very faster</li>
+            <li>Single Threaded but Highly Scalable</li>
+            <li>No Buffering </li>
+            <li>License  </li>
+        </ul>   
+
              
          <center><img src="../images/js.png">
          <p>Blocking I/O (left) vs Non-Blocking I/O (right) <br>
@@ -93,7 +102,7 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
        
       
 
-        <h2>Prerequisites</h2>
+        <h2>To Start Node.js here are some Prerequisites</h2>
         <ul>
             <li><a href="https://nodejs.org/en/download/">node.js</a></li>
             <li><a href="http://www.wampserver.com/en/">WAMP</a> for MYSQL database</li> <pre><code>npm install mysql</code></pre>
